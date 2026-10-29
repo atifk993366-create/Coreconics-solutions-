@@ -3,11 +3,7 @@ import { ApiError } from "@/lib/types";
 import { authenticate, rateLimit, requirePlatformAdmin, verifyFirebaseUser } from "@/lib/auth";
 import { dispatch } from "@/lib/router";
 import { createTenant } from "@/lib/services/tenants";
-<<<<<<< HEAD
-import { registerLab, listTenants, setApproval } from "@/lib/services/admin";
-=======
 import { registerLab, listTenants, setApproval, isPlatformAdmin, adminEmails } from "@/lib/services/admin";
->>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
 
 export const runtime = "nodejs"; export const maxDuration = 30; export const dynamic = "force-dynamic";
 const CORS = (origin: string | null) => ({ "access-control-allow-origin": origin ?? "*", "access-control-allow-headers": "authorization, content-type, idempotency-key", "access-control-allow-methods": "GET,POST,PUT,PATCH,DELETE,OPTIONS", "access-control-max-age": "86400", vary: "origin" });
@@ -25,10 +21,7 @@ async function handle(req: NextRequest, { params }: { params: Promise<{ path: st
     if (path === "/admin/tenants" && req.method === "POST") { const s = process.env.PLATFORM_ADMIN_SECRET; if (!s || req.headers.get("x-admin-secret") !== s) throw new ApiError(401, "Bad admin secret", "unauthorized"); return NextResponse.json({ data: await createTenant(body ?? {}) }, { status: 201, headers: CORS(origin) }); }
     // Self-registration (Firebase login) → lab is created as PENDING until Coreconics admin approves
     if (path === "/me/bootstrap" && req.method === "POST") { const u = await verifyFirebaseUser(req); rateLimit(`boot:${u.uid}`, 20); return NextResponse.json({ data: await registerLab(u, body) }, { headers: CORS(origin) }); }
-<<<<<<< HEAD
-=======
     if (path === "/me" && req.method === "GET") { const u = await verifyFirebaseUser(req); return NextResponse.json({ data: { email: u.email, emailVerified: !!u.emailVerified, isAdmin: isPlatformAdmin(u.email, u.emailVerified), adminListConfigured: adminEmails().length > 0, emailInAdminList: !!u.email && adminEmails().includes(u.email.toLowerCase()) } }, { headers: CORS(origin) }); }
->>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
     // Platform admin (Coreconics Solutions) — manual approval console
     if (path.startsWith("/admin/") && path !== "/admin/tenants") {
       const admin = await requirePlatformAdmin(req); const m = path.match(/^\/admin\/labs(?:\/([^/]+)\/(approve|reject|suspend|reopen))?$/);
