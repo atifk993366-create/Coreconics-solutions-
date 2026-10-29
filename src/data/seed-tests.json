@@ -1,0 +1,2980 @@
+[
+ {
+  "id": "albumin",
+  "name": "Albumin",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ALB",
+    "name": "Serum Albumin",
+    "unit": "g/dl",
+    "ref": "3.5 - 5.2",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Major components of plasma proteins are influenced by nutritional state, hepatic function, renal function, and various diseases. It is a major binding protein, although there are more than 50 different genetic variants (alloalbumins), only occasionally does a mutation cause abnormal binding (eg, in familial dysalbuminemic hyperthyroxinemia). Interpretation Increased in: Dehydration, shock, hemoconcentration. Decreased in: Decreased hepatic synthesis (chronic liver disease, malnutrition, malabsorption, malignancy, congenital analbuminemia [rare]). Increased losses (nephrotic syndrome, burns, trauma, hemorrhage with fluid replacement, fistulas, enteropathy, acute or chronic glomerulonephritis). Hemodilution (pregnancy, CHF). Drugs: estrogens. Comments Serum albumin indicates severity in chronic liver disease. Useful in nutritional assessment if there is no impairment in production or increased loss of albumin. Independent risk factor for all- cause mortality in the elderly (age >70) and for complications in hospitalized and post-surgical patients. There is a 10% reduction in serum albumin level in late pregnancy (related to hemodilution). ~~~ End of report ~~~"
+ },
+ {
+  "id": "alkaline_phosphatase",
+  "name": "Alkaline Phosphatase (ALP)",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ALP",
+    "name": "Serum Alkaline Phosphatase",
+    "unit": "U/I",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis: Alkaline phosphatases are primarily found in liver, bone, intestines, kidney, and placenta. Test is used to detect liver disease and bone disorders. Interpretation: Increased in: Obstructive hepatobiliary disease, bone disease (physiologic bone growth, Paget disease, osteomalacia, osteogenic sarcoma, bone metastases), hyperparathyroidism, rickets, benign familial hyperphosphatasemia, pregnancy (third trimester), GI disease (perforated ulcer or bowel infarct), hepatotoxic drugs. Decreased in: Hypophosphatasia. Comment: Alkaline phosphatase performs well in measuring the extent of bone metastases in prostate cancer. Alkaline phosphatase isoenzyme separation by electrophoresis or differential heat inactivation is unreliable. Use γ-glutamyl transpeptidase, which increases in hepatobiliary disease but not in bone disease, to infer the origin of increased alkaline phosphatase. ~~~ End of report ~~~"
+ },
+ {
+  "id": "amylase",
+  "name": "Amylase",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "SERUM_AMYLASE",
+    "name": "Serum Amylase",
+    "unit": "IU/L",
+    "ref": "0 - 120",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Amylase hydrolyzes complex carbohydrates. Serum amylase is derived primarily from pancreas and salivary glands and is increased with inflammation or obstruction of these glands. Other tissues have some amylase activity, including ovaries, small and large intestine, and skeletal muscle. Interpretation Increased in: Acute pancreatitis (70–95%), pancreatic pseudocyst, pancreatic duct obstruction (cholecystitis, choledocholithiasis, pancreatic carcinoma, stone, stricture, duct sphincter spasm), bowel obstruction and infarction, mumps, parotitis, diabetic keto- acidosis, penetrating peptic ulcer, peritonitis, ruptured ectopic pregnancy, macroamylasemia. Drugs: azathioprine, hydrochlorothiazide. Decreased in: Pancreatic insufficiency, cystic fibrosis. Usually normal or low in chronic pancreatitis. Comments Macroamylasemia is indicated by high serum but low urine amylase. Serum or plasma lipase is an alternative test for acute pancreatitis. It has clinical sensitivity equivalent to that of amylase but with better specificity. ~~~ End of report ~~~"
+ },
+ {
+  "id": "anti_tpo",
+  "name": "Anti TPO",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ANTI_TPO",
+    "name": "Anti TPO",
+    "unit": "IU/mL",
+    "ref": "< 30",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis TPO is a membrane-bound glycoprotein. This enzyme mediates the oxidation of iodide ions and incorporation of iodine into tyrosine residues of thyroglobulin. Its synthesis is stimulated by thyroid-stimulating hormone (TSH). TPO is the major antigen involved in thyroid antibody-dependent cell-mediated cytotoxicity. TPO Ab can be measured by enzyme-linked immunosorbent assay (ELISA) or automated immunoassay. Interpretation Increased in: Hashimoto thyroiditis (> 99%), Idiopathic myxedema (> 99%), Graves disease (75–85%), Addison disease (50%), and Riedel thyroiditis. Low titers are present in approximately 10% of normal individuals and patients with non-immune thyroid disease. Comments TPO antibody is an antibody to the main autoantigenic component of microsomes and is a more sensitive and specific test than hemagglutination assays for microsomal antibodies in the diagnosis of autoimmune thyroid disease. TPO antibody testing alone is often sufficient to detect autoimmune thyroid disease. TPO antibody titers correlate with TSH levels; their presence may herald impending thyroid failure. ~~~ End of report ~~~"
+ },
+ {
+  "id": "bilirubin_total",
+  "name": "Bilirubin Total",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "BILI_T",
+    "name": "Serum Bilirubin (Total)",
+    "unit": "mg/dl",
+    "ref": "0.2 - 1.2",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Bilirubin is the orange-yellow pigment derived from the breakdown of hemoglobin (heme). The majority of bilirubin comes from senescent red cells. It is biotransformed in the liver and excreted in bile and urine. Some conjugated bilirubin is bound to serum albumin, so-called D (delta) bilirubin. Interpretation Increased in: Acute or chronic hepatitis, cirrhosis, biliary tract obstruction, toxic hepatitis, neonatal jaundice (neonatal hyperbilirubinemia), congenital liver enzyme abnormalities (Dubin-Johnson, Rotor, Gilbert, Crigler-Najjar syndromes), fasting, hemolytic disorders. Hepatotoxic drugs. Comments Assay of total bilirubin includes conjugated (direct) and unconjugated (indirect) bilirubin. Only conjugated bilirubin appears in the urine, and it is indicative of liver disease and biliary tract obstruction. Hemolysis is associated with increased unconjugated bilirubin. Unbound (free) serum or plasma bilirubin level correlates better than total bilirubin with CNS bilirubin concentrations and bilirubin encephalopathy (kernicterus) in newborn jaundice. ~~~ End of report ~~~"
+ },
+ {
+  "id": "blood_sugar_pp",
+  "name": "Blood Sugar PP",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "BLOOD_SUGAR_PP",
+    "name": "Blood Sugar Pp",
+    "unit": "mg/dl",
+    "ref": "< 140",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Clinical Notes Elevated glucose levels (hyperglycemia) are most often encountered clinically in the setting of diabetes mellitus, but they may also occur with pancreatic neoplasms, hyperthyroidism, and adrenocortical dysfunction. Decreased glucose levels (hypoglycemia) may result from endogenous or exogenous insulin excess, prolonged starvation, or liver disease. A level of 126 mg/dL or above, confirmed by repeating the test on another day, means a person has diabetes. IGT (2 hrs Post meal), means a person has an increased risk of developing type 2 diabetes but does not have it yet. A 2-hour glucose level of 200 mg/dL or above, confirmed by repeating the test on another day, means a person has diabetes. ~~~ End of report ~~~"
+ },
+ {
+  "id": "bun",
+  "name": "BUN",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "BUN",
+    "name": "BUN",
+    "unit": "mg/dl",
+    "ref": "7.9 - 20",
+    "type": "number",
+    "group": null,
+    "derived": true
+   }
+  ],
+  "interpretation": "Physiological basis Urea is the end product of protein metabolism, which is excreted by the kidney. BUN is directly related to protein intake and nitrogen metabolism and inversely related to the rate of excretion of urea. Urea concentration in glomerular filtrate is the same as in plasma, but its tubular reabsorption is inversely related to the rate of urine formation. Thus, BUN is a less useful measure of glomerular filtration rate than the serum/ plasma creatinine (Cr). Clinic Use The BUN (Blood Urea Nitrogen) test measures the level of urea nitrogen in the blood to assess kidney function and overall health. It is a commonly performed test that helps diagnose and monitor conditions related to kidney health. Kidney dysfunction - Acute kidney injury, chronic kidney disease, kidney failure - Certain medications: Antibiotics, Diuretics ~~~ End of report ~~~"
+ },
+ {
+  "id": "calcitonin",
+  "name": "Calcitonin",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "CALCITONIN",
+    "name": "Calcitonin",
+    "unit": "pg/mL",
+    "ref": "< 18",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological Basis Calcitonin is a 32-amino-acid polypeptide hormone secreted by the parafollicular C cells of the thyroid. It decreases osteoclastic bone resorption and lowers serum calcium levels. Interpretation Increased in: Medullary thyroid carcinoma, Zollinger-Ellison syndrome, pernicious anemia, pregnancy (at term), newborns, carcinoma (breast, lung, pancreas), leukemia, myeloproliferative disorders, chronic renal failure. Comments Test is useful to diagnose and monitor medullary thyroid carcinoma, although stimulation tests may be necessary (eg, pentagastrin test). Genetic testing (eg, RET mutation test) is now available for the diagnosis of multiple endocrine neoplasia type II. ~~~ End of report ~~~"
+ },
+ {
+  "id": "calcium",
+  "name": "Calcium",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "CA",
+    "name": "Serum Calcium",
+    "unit": "mg/dl",
+    "ref": "8.8 - 10.6",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Serum calcium is the sum of ionized calcium plus complex calcium and calcium bound to proteins (mostly albumin). Level of ionized calcium is regulated by parathyroid hormone and vitamin D. Interpretation Primary hyperparathyroidism and malignancy account for 90-95% of cases of hypercalcemia. Comments Need to know serum albumin to interpret calcium level. For every decrease in albumin by 1mg/dL, calcium should be corrected upward by 0.8 mg/dL. In 10% of patients with malignancies, hypercalcemia is attributable to coexistent hyperparathyroidism, suggesting that serum PTH levels should be measured at the initial presentation of all hypercalcemic patients. ~~~ End of report ~~~"
+ },
+ {
+  "id": "ccp",
+  "name": "Anti-CCP",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ANTI_CYCLIC_CITRULLINATE",
+    "name": "Anti Cyclic-Citrullinated-Peptide",
+    "unit": "U/mL",
+    "ref": "< 5",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological Basis Post-translational deamination of arginine residues by peptidyl arginine deaminase (citrullination) during inflammation results in production of antigenic epitope. Antibodies to citrullinated proteins (particularly filaggrin) are frequently elevated in rheumatoid arthritis (RA). Interpretation: Increased in- RA (sensitivity 70–80%). Comments: Specificity of anti-CCP (90–95%) for RA is higher than that of rheumatoid factor. ~~~ End of report ~~~"
+ },
+ {
+  "id": "chloride",
+  "name": "Chloride",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "SERUM_CHLORIDE",
+    "name": "Serum Chloride",
+    "unit": "",
+    "ref": "98 - 107",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological Basis Chloride, the principal inorganic anion of extracellular fluid, is important in maintaining proper body water distribution, osmotic pressure, and normal acid–base balance. If chloride is lost (as HCl or NH4Cl), alkalosis ensues; if chloride is ingested or retained, acidosis ensues. Interpretation Increased in: Renal failure, nephrotic syndrome, renal tubular acidosis, dehydration, overtreatment with saline, hyperparathyroidism, diabetes insipidus, metabolic acidosis from diarrhea (loss of HCO3–), respiratory alkalosis, hyperadrenocorticism. Drugs: acetazolamide (hyperchloremic acidosis), androgens, hydrochlorothiazide, salicylates (intoxication). Decreased in: Vomiting, diarrhea, gastrointestinal suction, renal failure combined with salt deprivation, over-treatment with diuretics, chronic respiratory acidosis, diabetic ketoacidosis, excessive sweating, SIADH, salt-losing nephropathy, acute intermittent porphyria, water intoxication, expansion of extracellular fluid volume, adrenal insufficiency, hyperaldosteronism, metabolic alkalosis. Drugs: chronic laxative or bicarbonate ingestion, corticosteroids, diuretics. Comments Test is helpful in assessing normal and i"
+ },
+ {
+  "id": "cholesterol",
+  "name": "Total Cholesterol",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "CHOL",
+    "name": "Total Cholesterol",
+    "unit": "mg/dl",
+    "ref": "125 - 200",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Desirable: <200 mg/dL [<5.2 mmol/L] Borderline: 200–239 mg/ dL [5.2–6.1 mmol/L] High risk: >240 mg/dL [>6.2 mmol/L] Physiological basis Cholesterol level is determined by lipid metabolism, which is in turn influenced by heredity, diet, and liver, kidney, thyroid, and other endocrine organ functions. Interpretation Increased in: Primary disorders: polygenic hypercholesterolemia, familial hypercholesterolemia (deficiency of LDL receptors), familial combined hyperlipidemia, familial dysbetalipoproteinemia. Secondary disorders: hypothyroidism, uncontrolled diabetes mellitus, nephrotic syndrome, biliary obstruction, anorexia nervosa, hepatocellular carcinoma, Cushing syndrome, acute intermittent porphyria. Drugs: corticosteroids. Decreased in: Severe liver disease (acute hepatitis, cirrhosis, malignancy), hyperthyroidism, severe acute or chronic illness, malnutrition, malabsorption (eg, HIV), extensive burns, familial (Gaucher disease, Tangier disease), abetalipoproteinemia, intestinal lymphangiectasia. Comments Coronary heart disease (CHD) risk depends on the ratio of total cholesterol to HDL cholesterol. The ratio of LDL to HDL cholesterol has similar predictive ability. Treatment dec"
+ },
+ {
+  "id": "cmv_antibody",
+  "name": "CMV Antibody",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "CMV_IGG",
+    "name": "CMV Igg",
+    "unit": "AU/mL",
+    "ref": "<2",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "CMV_IGM",
+    "name": "CMV Igm",
+    "unit": "AU/mL",
+    "ref": "Neg. < 2.0 AU/mL",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological Basis Detects the presence of antibodies to CMV, either IgG or IgM. CMV infection is usually acquired during childhood or early adulthood. By age 20–40 years, 40–90% of the population has CMV antibodies. Interpretation Increased in: Previous or active CMV infection. False-positive CMV IgM tests occur when rheumatoid factor or infectious mononucleosis is present. Comments Serial specimens exhibiting a greater than fourfold titer rise suggest a recent infection. Active CMV infection must be documented by viral isolation. Useful for screening of potential organ donors and recipients. Universal prophylaxis reduces infection in transplant recipients. Detection of CMV IgM antibody in the serum of a newborn usually indicates congenital infection. Detection of CMV IgG antibody is not diagnostic, because maternal CMV IgG antibody passed via the placenta can persist in newborn’s serum for 6 months. CMV seronegative blood components are more efficacious than leukocyte-reduced blood components in preventing transfusion- acquired CMV infection. ~~~ End of report ~~~"
+ },
+ {
+  "id": "cpkmb",
+  "name": "CPK-MB",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "CPK_MB",
+    "name": "CPK-MB",
+    "unit": "ng/mL",
+    "ref": "< 5",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis CK consists of three isoenzymes, made up of 2 subunits, M and B. The fraction with the greatest electrophoretic mobility is CK1 (BB), CK2 (MB) is intermediate, and CK3 (MM) moves slowest toward the anode. Skeletal muscle is characterized by isoenzyme MM and brain by isoenzyme BB. Myocardium has approximately 40% MB isoenzyme. Assay techniques include isoenzyme separation by electrophoresis (isoenzyme activity units) or by immunoassay using antibodies specific for MB fraction (mass units). Interpretation Increased in: Myocardial infarction, cardiac trauma, certain muscular dystrophies, and polymyositis. Slight persistent elevation reported in a few patients on hemodialysis. Comments CK-MB is a relatively specific test for MI. It appears in serum approximately 4 hours after infarction, peaks at 12–24 hours, and declines over 48–72 hours. CK-MB mass concentration is a sensitive marker of MI within 4–12 hours after infarction. Because cardiac troponins are now the markers of choice for the diagnosis of acute MI, high sensitivity cardiac troponin I test has largely replaced the conventional CK-MB assay. Measurement of CK-MB remains useful in evaluating patients who a"
+ },
+ {
+  "id": "creatinine",
+  "name": "Creatinine",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "CREAT",
+    "name": "Serum Creatinine",
+    "unit": "mg/dl",
+    "ref": "0.72 - 1.18",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Creatinine is a waste product produced by muscles from the breakdown of a compound called creatine. It is removed from the body by the kidneys, which filter almost all of it from the blood and release it into the urine. Creatine is part of the cycle that produces energy needed to contract muscles. Both creatine and creatinine are produced by the body at a relatively constant rate. Since almost all creatinine is filtered from the blood by the kidneys and released into the urine, blood levels are usually a good indicator of how well the kidneys are working. Higher than normal level may be due to: - Blockage in the urinary tract - Kidney problems, such as kidney damage or failure, infection, or reduced blood flow - Loss of body fluid (dehydration) - Muscle problems, such as breakdown of muscle fibers - Problems during pregnancy, such as seizures (eclampsia)), or high blood pressure caused by pregnancy (preeclampsia) Lower than normal level may be due to: - Myasthenia Gravis - Muscular dystrophy. Low serum creatinine values are rare. They almost always reflect low muscle mass. ~~~ End of report ~~~"
+ },
+ {
+  "id": "d_dimer",
+  "name": "D Dimer",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "D_DIMER",
+    "name": "D-Dimer",
+    "unit": "μg FEU/mL",
+    "ref": "< 0.5",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis D-dimer is one of the terminal fibrin degradation products. The presence of D-dimers indicates that a fibrin clot was formed and subsequently degraded by plasmin. Essentially, D-dimer is elevated whenever the coagulation system has been activated, followed by fibrinolysis. Interpretation Increased in: Deep vein thrombosis (DVT), venous thrombo-embolism (VTE), pulmonary embolism (PE), disseminated intravascular coagulation (DIC), arterial thromboembolism, pregnancy (especially postpartum period), malignancy, surgery, thrombolytic therapy. Comments D-dimer assay is a very sensitive test for DIC, DVT and VTE or PE. The D-dimer can be measured by a variety of methods; for example, semiquantitative latex agglutination and quantitative high-sensitivity immunoassay (eg, ELISA). The newly developed highly sensitive automated D-dimer tests may be used to exclude PE and DVT: a negative test essentially rules out thrombosis, but a positive test does not confirm the diagnosis, and further testing (eg, ultrasound, CT angiography) is recommended. ~~~ End of report ~~~"
+ },
+ {
+  "id": "dhea",
+  "name": "DHEA",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "DHEA",
+    "name": "DHEA",
+    "unit": "μg/dl",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis DHEA is a 19-carbon endogenous steroid hormone secreted by the adrenal glands. It is converted to DHEA-S in the adrenals, liver, and small intestine. DHEA-S is albumin-bound in the circulation, and there is no diurnal variation in DHEA-S levels. Levels of DHEA-S are about 300 × higher than DHEA and more stable. It serves as the precursor of androgens and estrogens. Interpretation Increased in: Adrenal hyperplasia, adrenal cancer, congenital adrenal hyperplasia, polycystic ovarian syndrome. Decreased in: Adrenal insufficiency, hypopituitarism, rheumatoid arthritis (females), insulin, and corticosteroids. Comments DHEA measurement is typically used along with other steroid and peptide hormones to evaluate adrenal function, to help diagnose adrenal cortex tumors, and polycystic ovarian syndrome (in females). Orally ingested DHEA is converted to DHEA-S when passing through intestines and liver. People taking DHEA supplements have elevated blood levels of DHEA-S. Use by athletes is prohibited by the World Anti-doping Agency. ~~~ End of report ~~~"
+ },
+ {
+  "id": "fasting_blood_sugar",
+  "name": "Fasting Blood Sugar",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "FASTING_BLOOD_SUGAR",
+    "name": "Fasting Blood Sugar",
+    "unit": "mg/dl",
+    "ref": "70 - 100",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Clinical Notes Elevated glucose levels (hyperglycemia) are most often encountered clinically in the setting of diabetes mellitus, but they may also occur with pancreatic neoplasms, hyperthyroidism, and adrenocortical dysfunction. Decreased glucose levels (hypoglycemia) may result from endogenous or exogenous insulin excess, prolonged starvation, or liver disease. A level of 126 mg/dL or above, confirmed by repeating the test on another day, means a person has diabetes. IGT (2 hrs Post meal), means a person has an increased risk of developing type 2 diabetes but does not have it yet. A 2-hour glucose level of 200 mg/dL or above, confirmed by repeating the test on another day, means a person has diabetes. ~~~ End of report ~~~"
+ },
+ {
+  "id": "ferritin",
+  "name": "Ferritin",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "FERRITIN",
+    "name": "Ferritin",
+    "unit": "ng/mL",
+    "ref": "22 - 332",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Interpretation: Ferritin is iron storage protein. Determination of ferritin is necessary in Iron deficiency anemia, monitoring iron therapy, and in differential diagnosis of Anaemia. Elevation levels- Hemochromatosis, Porphyria, Rheumatoid arthritis, Leukaemia, Hodgkin's lymphoma, Liver disease, Multiple blood transfusion, Acute phase reactant, Increased in all inflammatory condition. Decreased level- Iron deficiency anemia. ~~~ End of report ~~~"
+ },
+ {
+  "id": "ggt",
+  "name": "GGT",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "GAMMA_GLUTAMYL_TRANSFERA",
+    "name": "Gamma Glutamyl Transferase, GGT",
+    "unit": "IU/L",
+    "ref": "9 - 52",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Interpretation Synthesis of GGT is stimulated by many drugs e.g., phenytoin, phenobarbitone, primidone, alcohol and possibly some antidepressants. GGT is a sensitive test for excess alcohol intake but is not specific. Abnormal test results 1. Raised GGT and raised mean corpuscular volume (MCV) suggest alcohol abuse. 2. Raised GGT, history of excessive alcohol intake, raised ALT and raised MCV suggest liver cell damage. 3. Very high GGT (10 times normal upper limit) occurs in biliary obstruction and hepatic malignancies. 4. Raised GGT and raised ALP (more than three times upper limit of normal) suggest cholestasis. 5. Raised GGT may be due to non-specific causes e.g., MI, cerebrovascular accident, diabetes mellitus, pancreatic disease, renal failure and chronic lung disease. 6. LFTs (transaminase and GGT) are also affected by lack of exercise, obesity and smoking, as well as excess alcohol intake. Elevated results may, therefore, occur if several of these factors coexist, even if alcohol intake is not excessive. 7. The effect of alcohol on GGT is complex. About 50% of people who drink alcohol to excess on a regular basis will have biochemical abnormalities, while the other 50% will "
+ },
+ {
+  "id": "gtt",
+  "name": "Glucose Tolerance Test, GTT",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "FASTING",
+    "name": "Fasting",
+    "unit": "mg/dl",
+    "ref": "< 100",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "1_HOUR",
+    "name": "1 Hour",
+    "unit": "mg/dl",
+    "ref": "< 190",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "2_HOUR",
+    "name": "2 Hour",
+    "unit": "mg/dl",
+    "ref": "< 165",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "3_HOUR",
+    "name": "3 Hour",
+    "unit": "mg/dl",
+    "ref": "< 145",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "The diagnosis of Diabetes requires a fasting plasma glucose of > or = 126 mg/dL or a random / 2 hr post glucose value of > or = 200 mg/dL on at least 2 occasions. ~~~ End of report ~~~"
+ },
+ {
+  "id": "hba1c",
+  "name": "HbA1c (Glycosylated Hemoglobin)",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "HBA1C",
+    "name": "HbA1c",
+    "unit": "%",
+    "ref": "",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "EAG",
+    "name": "Estimated Average Glucose",
+    "unit": "mg/dL",
+    "ref": "",
+    "type": "number",
+    "group": null,
+    "derived": true
+   }
+  ],
+  "interpretation": "Interpretation as per American Diabetes Association (ADA) Guidelines Clinical significance: Hemoglobin A1c (HbA1c) level reflects the mean glucose concentration over the previous period (approximately 8-12 weeks). The following ranges may be used for interpretation of results. However, factors such as duration of diabetes, adherence to therapy and the age of the patient should also be considered in assessing the degree of blood glucose control. Haemoglobin A1c (%) NSGP mmol/mol/IFCC Unit eAG (mg/dl) Degree of Glucose Control Unit *High risk of developing long term complications such as Retinopathy, Nephropathy, Neuropathy etc. **Some danger of hypoglycemic reaction in Type 1 diabetics. Some glucose intolerant individuals and \"subclinical\" diabetics may demonstrate HbA1c levels in this area. ~~~ End of report ~~~"
+ },
+ {
+  "id": "indirect_coombs_test",
+  "name": "Indirect Coombs Test",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "INDIRECT_COOMB_S_TEST",
+    "name": "Indirect Coomb'S Test",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Indirect antiglobulin test is used to demonstrate the presence in the patient’s serum/plasma of unexpected antibody to ABO and Rh- compatible reagent red blood cells. Patient serum or plasma is incubated in vitro with reagent red cells, which are then washed to remove unbound globulins. Agglutination that occurs when antihuman globulin (AHG, Coombs) reagent is added indicates that antibody has bound to a specific antigen present on the red cells. Interpretation Positive in: Presence of alloantibody or autoantibody. Drugs: methyldopa. Comments The technique is used in antibody detection and identification, and in the AHG crossmatch prior to transfusion. ~~~ End of report ~~~"
+ },
+ {
+  "id": "iron",
+  "name": "Iron",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "IRON",
+    "name": "Iron",
+    "unit": "μg/dl",
+    "ref": "65 - 175",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Plasma iron concentration is determined by absorption from the intestine; storage in the intestine, liver, spleen, bone marrow; rate of breakdown or loss of hemoglobin; and rate of synthesis of new hemoglobin. The key regulator of iron homeostasis is hepcidin. Hepcidin excess or deficiency contributes to the dysregulation of iron homeostasis in hereditary and acquired iron disorders. Interpretation Increased in: Hemosiderosis (eg, multiple transfusions, excess iron administration), acute Fe poisoning (children), hemolytic anemia, pernicious anemia, aplastic or hypoplastic anemia, viral hepatitis, lead poisoning, thalassemia, hemochromatosis. Drugs: estrogens, ethanol, oral contraceptives. Decreased in: Iron deficiency, nephrotic syndrome, chronic renal failure, many infections, active hematopoiesis, remission of pernicious anemia, hypothyroidism, malignancy (carcinoma), postoperative state, kwashiorkor. Comments Absence of stainable iron on bone marrow aspirate differentiates iron deficiency from other causes of microcytic anemia (eg, thalassemia, sideroblastic anemia, some chronic disease anemias), but the procedure is invasive and expensive. Serum iron, iron- "
+ },
+ {
+  "id": "lipase",
+  "name": "Lipase",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "LIPASE",
+    "name": "Lipase",
+    "unit": "U/I",
+    "ref": "0 - 67",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Lipases are responsible for hydrolysis of glycerol esters of long-chain fatty acids to produce fatty acids and glycerol. Interpretation Increased in: Acute, recurrent, or chronic pancreatitis, pancreatic pseudocyst, pancreatic malignancy, peritonitis, biliary disease, hepatic disease, diabetes mellitus (especially diabetic ketoacidosis), intestinal disease, gastric malignancy or perforation, cystic fibrosis, inflammatory bowel disease (Crohn disease and ulcerative colitis). Comments Serum lipase may be a more reliable test than serum amylase for the initial diagnosis of acute pancreatitis, because of its increased sensitivity in acute alcoholic pancreatitis and because lipase remains elevated longer than amylase. ~~~ End of report ~~~"
+ },
+ {
+  "id": "phosphorus",
+  "name": "Phosphorus",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "SERUM_PHOSPHORUS",
+    "name": "Serum Phosphorus",
+    "unit": "mg/dl",
+    "ref": "2.5 - 4.5",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis The plasma concentration of inorganic phosphate is determined by parathyroid gland function, action of vitamin D, intestinal absorption, renal function, bone metabolism, and nutrition. Serum phosphorus concentrations have a circadian rhythm (highest level in late morning, lowest in evening) and are subject to rapid change secondary to environmental factors such as diet (carbohydrate), phosphate binding antacids, and fluctuations in GH, insulin, and renal function. Interpretation acidosis. Drugs: acetazolamide, phosphate-binding antacids, anticonvulsants, β- Comments Shift of phosphorus from extracellular to intracellular compartments, decreased gastrointestinal absorption, and increased urinary losses, are the primary mechanisms of hypophosphatemi"
+ },
+ {
+  "id": "potassium",
+  "name": "Potassium",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "K",
+    "name": "Serum Potassium",
+    "unit": "",
+    "ref": "3.5 - 5.1",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Potassium is predominantly an intracellular cation whose plasma level is regulated by renal excretion. Elevated or depressed potassium concentrations interfere with muscle contraction. Interpretation Increased in: Massive hemolysis, severe tissue damage, rhabdomyolysis, acidosis, dehydration, acute or chronic renal failure, Addison disease, renal tubular acidosis type IV (hyporeninemic) hypoaldosteronism, (hyperkalemic) familial periodic paralysis, exercise (transient). Drugs: potassium salts, potassium-sparing diuretics (eg, spironolactone, triamterene, eplerenone), nonsteroidal anti-inflammatory drugs, β-blockers, ACE inhibitors, ACE-receptor blockers, high-dose trimethoprim-sulfamethoxazole. Decreased in: Low potassium intake, prolonged vomiting or diarrhea, renal tubular acidosis types I and II, hyperaldosteronism, Cushing syndrome, osmotic diuresis (eg, hyperglycemia), alkalosis, (hypokalemic) familial periodic paralysis, trauma (transient), subarachnoid hemorrhage, genetic hypokalemic salt-losing tubulopathies such as Gitelman syndrome (familial hypokalemia- hypocalcemia-hypomagnesemia). Drugs: adrenergic agents (isoproterenol), diuretics. Comments Spurious "
+ },
+ {
+  "id": "protein",
+  "name": "Protein",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "PROT",
+    "name": "Serum Protein",
+    "unit": "g/dl",
+    "ref": "6.4 - 8.3",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Plasma protein concentration is determined by nutritional state, hepatic function, renal function, hydration, and various disease states. Plasma protein concentration determines the colloidal osmotic pressure. Interpretation Increased in: Polyclonal or monoclonal gammopathies, marked dehydration. Drugs: anabolic steroids, androgens, corticosteroids, epinephrine. Decreased in: Protein-losing enteropathies, acute burns, nephrotic syndrome, severe dietary protein deficiency, chronic liver disease, malabsorption syndrome, agammaglobulinemia, cancer cachexia. Comments Serum total protein consists primarily of albumin and globulin. Serum globulin level is calculated as total protein minus albumin. Hypoproteinemia usually indicates hypoalbuminemia, because albumin is the major serum protein ~~~ End of report ~~~"
+ },
+ {
+  "id": "rbs",
+  "name": "RBS",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "RANDOM_BLOOD_SUGAR",
+    "name": "Random Blood Sugar",
+    "unit": "mg/dl",
+    "ref": "70 - 140",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "According to ADA guidelines The reference values for a Normal Random Glucose test in an average adult are 70-140 mg/dL (4.4-7.8 mmol/i). between 140-200 mg/L (78-11.1 mmol/l) is considered pre-diabetes, and › 200 mg/dL is considered diabetes according to ADA guidelines (you should visit your doctor or a clinic for additional tests) ~~~ End of report ~~~"
+ },
+ {
+  "id": "serum_ige",
+  "name": "Serum IgE",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "SERUM_IGE",
+    "name": "Serum IGE",
+    "unit": "IU/mL",
+    "ref": "1 - 190",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Notes Normal IgE levels don't rule out the possibility of IgE-dependent allergies. This is because the accuracy of the test can be influenced by factors such as the time between exposure to an allergen and testing, the patient's age, and the specific organs affected. Additionally, the severity of an allergic reaction is not strongly related to the amount of IgE in the blood. Comments Immunoglobulin E (IgE) plays a key role in triggering allergic reactions. Its levels are low in the first year of life but increase as a child grows, reaching adult levels by around age 10. Measuring IgE levels can help differentiate between atopic diseases (like allergic asthma, allergic rhinitis, and atopic dermatitis) and non-atopic conditions. Increased Levels - Atopic/Non-atopic allergy, Hyper IgE syndrome, Parasitic infections, IgE Myeloma, Pulmonary Aspergillosis, Immunodeficiency states & Autoimmune diseases. Uses 1. Evaluate children with a family history of allergies and early symptoms. 2. Assess individuals for allergic respiratory issues and identify allergens. 3. Confirm food allergies in patients with severe reactions or skin issues. 4. Test for insect venom allergies if skin tests are un"
+ },
+ {
+  "id": "sgot",
+  "name": "SGOT",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "SGOT",
+    "name": "SGOT (Ast)",
+    "unit": "U/I",
+    "ref": "0 - 37",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis: Intracellular enzyme involved in amino acid metabolism. Present in large concentrations in liver, skeletal muscle, brain, red cells, and heart. Released into the bloodstream when tissue is damaged, especially in liver injury. Interpretation Increased in: Acute viral hepatitis (ALT > AST), biliary tract obstruction (cholangitis, choledocholithiasis), alcoholic hepatitis and cirrhosis (AST > ALT), liver abscess, metastatic or primary liver cancer; right heart failure, ischemic or hypoxic injury to liver (“shock liver”), extensive trauma. Drugs that cause cholestasis or hepatotoxicity. Decreased in: Pyridoxine (vitamin B6) deficiency Comments Test is not indicated for diagnosis of myocardial infarction. AST/ALT ratio >1 suggests cirrhosis in patients with hepatitis C ~~~ End of report ~~~"
+ },
+ {
+  "id": "sgpt",
+  "name": "SGPT",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "SGPT",
+    "name": "SGPT (Alt)",
+    "unit": "U/I",
+    "ref": "13 - 40",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Intracellular enzyme involved in amino acid metabolism. Present in large concentrations in liver, kidney; in smaller amounts, in skeletal muscle and heart. Released with tissue damage, particularly liver injury. Interpretation Increased in: Acute viral hepatitis (ALT > AST), biliary tract obstruction (cholangitis, choledocholithiasis), alcoholic hepatitis and cirrhosis (AST > ALT), liver abscess, metastatic or primary liver cancer; nonalcoholic steatohepatitis; right heart failure, ischemia or hypoxia, injury to liver (“shock liver”), extensive trauma; drugs that cause cholestasis or hepatotoxicity. Decreased in: Pyridoxine (vitamin B6) deficiency. Comments ALT is the preferred enzyme for evaluation of liver injury. ~~~ End of report ~~~"
+ },
+ {
+  "id": "sodium",
+  "name": "Sodium",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "NA",
+    "name": "Serum Sodium",
+    "unit": "",
+    "ref": "136 - 146",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Sodium is the predominant extracellular cation. The serum sodium level is primarily determined by the volume status of the individual. Hyponatremia can be divided into hypovolemia, euvolemia, and hypervolemia categories. Interpretation Increased in: Dehydration (excessive sweating, severe vomiting, or diarrhea), polyuria (diabetes mellitus, diabetes insipidus), hyperaldosteronism, inadequate water intake (coma, hypothalamic disease). Drugs: steroids, licorice, oral contraceptives. Decreased in: CHF, cirrhosis, vomiting, diarrhea, exercise, excessive sweating (with replacement of water but not salt, eg, marathon running), salt-losing nephropathy, adrenal insufficiency, nephrotic syndrome, water intoxication, syndrome of inappropriate antidiuretic hormone (SIADH), AIDS. Drugs: thiazides, diuretics, ACE inhibitors, chlorpropamide, carbamazepine, antidepressants (SSRI), antipsychotics. Comments Hyponatremia in a normovolemic patient with urine osmolality higher than serum (or plasma) osmolality suggests the possibility of SIADH, myxedema, hypopituitarism, or reset osmostat. Treatment of disorders of sodium balance relies on clinical assessment of the patient’s extrace"
+ },
+ {
+  "id": "thyroglobulin_antibody",
+  "name": "Thyroglobulin Antibody",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "THYROGLOBULIN_ANTIBODY_T",
+    "name": "Thyroglobulin Antibody (Tgab)",
+    "unit": "IU/mL",
+    "ref": "< 95",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Antibodies against thyroglobulin are produced in autoimmune diseases of the thyroid and other organs. Of the normal population, 10% have slightly elevated titers (especially women and the elderly). Interpretation Increased in: Hashimoto thyroiditis (> 90%), thyroid carcinoma (45%), thyrotoxicosis, pernicious anemia (50%), SLE (20%), subacute thyroiditis, Graves disease. Not increased in: Multinodular goiter, thyroid adenomas, and some carcinomas. The thyroid peroxidase antibody test is more sensitive than the thyroglobulin antibody test in autoimmune thyroid disease. There is limited use for this test, ie, monitoring of patients with thyroid carcinoma after treatment. ~~~ End of report ~~~"
+ },
+ {
+  "id": "thyroglobulin",
+  "name": "Thyroglobulin",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "THYROGLOBULIN_TG",
+    "name": "Thyroglobulin (Tg)",
+    "unit": "ng/mL",
+    "ref": "< 55",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Tg is a large protein specific to the thyroid gland from which thyroxine is synthesized and cleaved. Highly sensitive immunometric assays for Tg are available. Tg autoantibodies can interfere with the measurement of Tg. Interpretation Increased in: Hyperthyroidism, subacute thyroiditis, untreated thyroid carcinomas (except medullary carcinoma): follicular cancer (sensitivity 72%, speciﬁcity 81%), Hürthle cell cancer (sensitivity 56%, speciﬁcity 84%). Decreased in: Factitious hyperthyroidism, presence of thyroglobulin autoantibodies, after (> 25 days) total thyroidectomy. Comments Follow-up of patients with differentiated thyroid cancers who are apparently disease-free after surgery and radioiodine therapy involves periodic measurement of serum Tg. Patients with detectable serum Tg during thyroid-stimulating hormone (TSH) suppression by thyroxine therapy or Tg that rises higher than 2 ng/mL after TSH stimulation are highly likely to harbor residual tumors. Undetectable serum Tg during TSH suppressive therapy does not exclude persistent disease. Therefore, serum Tg should be measured after TSH stimulation achieved either by thyroxine withdrawal or by administration"
+ },
+ {
+  "id": "tibc",
+  "name": "TIBC",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "TIBC",
+    "name": "Total Iron Binding Capacity (TIBC)",
+    "unit": "μg/dl",
+    "ref": "240 - 450",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Iron is transported in plasma complexed to transferrin, which is synthesized in the liver. Total iron-binding capacity is calculated from transferrin levels measured immunologically. Each molecule of transferrin has two iron-binding sites; so its iron- binding capacity is 1.47 mg/g. Normally, transferrin carries an amount of iron representing about 16–60% of its capacity to bind iron (eg, % saturation of iron- binding capacity is 16–60%). Interpretation Comments TIBC correlates with serum transferrin, but the relationship is not linear over a wide range of transferrin values and is disrupted in diseases affecting transferrin-binding capacity or other iron-binding proteins. Increased % transferrin saturation with iron is seen in iron overload (iron poisoning, hemolytic anemia, sideroblastic anemia, thalassemia, hemochromatosis, pyridoxine deficiency, aplastic anemia, RBC transfusions). Decreased % transferrin saturation with iron is seen in iron deficiency (usually saturation <16%). Transferrin levels can also be used to assess nutritional status. ~~~ End of report ~~~"
+ },
+ {
+  "id": "triglycerides",
+  "name": "Triglycerides",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "TG",
+    "name": "Triglycerides",
+    "unit": "mg/dl",
+    "ref": "25 - 200",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Dietary fat is hydrolyzed in the small intestine, absorbed and resynthesized by mucosal cells, and secreted into lacteals as chylomicrons. Triglycerides in the chylomicrons are cleared from the blood by tissue lipoprotein lipase. Endogenous triglyceride production occurs in the liver. These triglycerides are transported in association with β-lipoproteins in very low-density lipoproteins (VLDL). Interpretation Increased in: Hypothyroidism, diabetes mellitus, nephrotic syndrome, chronic alcoholism (fatty liver), biliary tract obstruction, stress, familial lipoprotein lipase deficiency, familial dysbetalipoproteinemia, familial combined hyperlipidemia, obesity, metabolic syndrome, viral hepatitis, cirrhosis, pancreatitis, chronic renal failure, gout, pregnancy, glycogen storage diseases types I, III, and VI, anorexia nervosa, dietary excess. Drugs: β-blockers, cholestyramine, corticosteroids, diazepam, diuretics, estrogens, oral contraceptives. Decreased in: Tangier disease (α-lipoprotein deficiency), hypo- and abetalipoproteinemia, malnutrition, malabsorption, parenchymal liver disease, hyperthyroidism, intestinal lymphangiectasia. Drugs: ascorbic acid, clofibrate"
+ },
+ {
+  "id": "troponin",
+  "name": "Troponin",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "TROPONIN_I",
+    "name": "Troponin I",
+    "unit": "ng/mL",
+    "ref": "< 0.1",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Note After Ml, troponin rises within 4-8 hours, peaks at 12-24 hours, and remains elevated for upto 14 days. Increased levels cTnl is highly cardio specific , though it may be elevated in nonischemic forms of cardiac injury including cardiac contusion, myocarditis, CHF, cardiomyopathy, Interventional therapy like cardiac surgery, and drug-induced cardiotoxicity. Normal troponin is defined as values upto the 99th percentile of healthy adults. “False positive” troponin may be seen in pulmonary embolism, myocarditis, pericarditis, heart failure, intracranial insults, rhabdomyolysis, sepsis, shock, and renal insufficiency. ~~~ End of report ~~~"
+ },
+ {
+  "id": "urea",
+  "name": "Urea",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "UREA",
+    "name": "Serum Urea",
+    "unit": "mg/dl",
+    "ref": "19 - 45",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Urea is derived in the liver from amino acids and therefore from protein, whether originating from the diet or from tissues. The normal kidney can excrete large amounts of urea. If the rate of production exceeds the rate of clearance, plasma concentrations rise. The rate of production is accelerated by: - a high-protein diet - absorption of amino acids and peptides from digested blood after hemorrhage into the gastrointestinal lumen or soft tissues - increased catabolism due to starvation, tissue damage, sepsis or steroid treatment. - increased catabolism due to starvation, tissue damage, sepsis or steroid treatment. In catabolic states, glomerular function is often impaired due to circulatory factors and this contributes more to the uraemia than does increased production. Conversely, the plasma urea concentration may be lower than 1.0 mmol/L, the causes of which include the following: ~~~ End of report ~~~"
+ },
+ {
+  "id": "uric_acid",
+  "name": "Uric Acid",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "UA",
+    "name": "Serum Uric Acid",
+    "unit": "mg/dl",
+    "ref": "3.5 - 7.2",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Uric acid is an end product of nucleoprotein metabolism and is excreted by the kidney. An increase in serum uric acid concentration occurs with increased nucleoprotein synthesis or catabolism (blood dyscrasias, therapy of leukemia) or decreased renal uric acid excretion (eg, thiazide diuretic therapy or renal failure). Interpretation Increased in: Renal failure, gout, myeloproliferative disorders (leukemia, lymphoma, myeloma, polycythemia vera), psoriasis, glycogen storage disease (type I), Lesch-Nyhan syndrome, lead nephropathy, hypertensive diseases of pregnancy (preeclampsia and eclampsia), menopause, syndrome X (obesity, insulin resistance, hypertension, hyperuricemia, dyslipidemia). Drugs: Antime- tabolite and chemotherapeutic agents, diuretics, ethanol, nicotinic acid, salicylates (low-dose), theophylline. Decreased in: SIADH, Xanthine oxidase deficiency, Low-purine diet, Fanconi syndrome, Neoplastic disease (various, causing Increased renal excretion), Liver disease. Drugs: Salicylates (high- dose), allopurinol or febuxostat (xanthine oxidase inhibitors) or uricase. ~~~ End of report ~~~"
+ },
+ {
+  "id": "vitamin_b12",
+  "name": "Vitamin B12",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "VITAMIN_B12",
+    "name": "Vitamin B12",
+    "unit": "pg/ml",
+    "ref": "211 - 911",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Vitamin B12 is a necessary cofactor for three important biochemical processes: conversion of methylmalonyl-CoA to succinyl-CoA and methylation of homocysteine to methionine and demethylation of methyltetrahydrofolate to tetra-hydrofolate (THF). All vitamin B12 comes from ingestion of foods of animal origin. Vitamin B12 in serum is protein bound, 70% to transcobalamin I (TC I) and 30% to transcobalamin II (TC II). The B12 bound to TC II is physiologically active; that bound to TC I is not. Interpretation Increased in: Leukemia (acute myelocytic, chronic myelocytic, chronic lymphocytic, monocytic), marked leukocytosis, polycythemia vera. Decreased in: Pernicious anemia, gastrectomy, gastric carcinoma, malabsorption, pregnancy, dietary deficiency, HIV infection, chronic high-flux hemodialysis, Alzheimer disease, drugs (eg, omeprazole, metformin, carbamazepine). Comments Low serum B12 levels warrant treatment; intermediate levels should be followed by repeated serum tests or by urine methylmalonic acid tests, as well as by serum homocysteine levels. Neurologic disorders caused by low serum B12 level can occur in the absence of macrocytic anemia or pancytopenia. ~~~ En"
+ },
+ {
+  "id": "vitamin_d3",
+  "name": "Vitamin D3 (25-OH)",
+  "department": "Biochemistry",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "25_HYDROXY_OH_VITAMIN_D",
+    "name": "25 Hydroxy (Oh) Vitamin D",
+    "unit": "ng/mL",
+    "ref": "30 - 100",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological Basis: The vitamin D system functions to maintain serum calcium levels. Vitamin D is a fat-soluble steroid hormone. Two molecular forms exist: D3 (cholecalciferol), synthesized in the epidermis, and D2 (ergocalciferol), derived from plant sources. To become active, both need to be further metabolized. Two sequential hydroxylations occur: in the liver to 25(OH)D and then, in the kidney, to 1,25[OH] 2 D. Besides consequences for bone health, vitamin D deficiency reportedly is associated with a number of conditions such as cardiovascular disease, autoimmunity and cancer; however, evidence-based cause-and-effect relationships have not been established. Interpretation Increased in: Heavy milk drinkers (up to 64 ng/mL), vitamin D intoxication, sun exposure. Decreased in: Dietary deficiency, malabsorption, rickets, osteomalacia, biliary and portal cirrhosis, nephrotic syndrome, renal failure, inadequate sun exposure, advanced age (> 70), primary hyperparathyroidism. Drugs: Phenytoin, phenobarbital. Comments: Serum or plasma total 25(OH)D is an integrated marker of vitamin D status, incorporating endogenous synthesis from solar exposure, dietary intake, fortified products and"
+ },
+ {
+  "id": "albumin_creatinine_ratio_urine",
+  "name": "Albumin Creatinine Ratio, Urine",
+  "department": "Clinical Pathology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "MALB",
+    "name": "Microalbumin",
+    "unit": "mg/L",
+    "ref": "",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "UCREAT",
+    "name": "Urinary Creatinine",
+    "unit": "mg/dL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "ACR",
+    "name": "Albumin Creatinine Ratio",
+    "unit": "mg/g",
+    "ref": "",
+    "type": "number",
+    "group": null,
+    "derived": true
+   }
+  ],
+  "interpretation": "Physiological Basis The normal urinary albumin excretion is less than 30 mg/24 hr. On random spot urine collection, the albumin-to-creatinine ratio (ACR, mcg/mg) should be less than 30. Interpretation Increased in: Diabetes mellitus, diabetic nephropathy. Comments Microalbuminuria is a useful indicator of early nephropathy in diabetic patients. Urine albumin measurement requires a sensitive immunochemical assay. Urine dipstick analysis is often insensitive to microalbuminuria. Screening for microalbuminuria is often performed by measurement of the ACR in a random spot collection (preferred method). ~~~ End of report ~~~"
+ },
+ {
+  "id": "semen_examination",
+  "name": "Semen Examination",
+  "department": "Clinical Pathology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "QTY",
+    "name": "Quantity",
+    "unit": "ml",
+    "ref": "2 - 3",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "COUNT",
+    "name": "Sperm Count",
+    "unit": "million/ml",
+    "ref": "> 15",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "MOT",
+    "name": "Total Motility",
+    "unit": "%",
+    "ref": "> 40",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "MORPH",
+    "name": "Normal Morphology",
+    "unit": "%",
+    "ref": "> 4",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "MICROSCOPIC EXAMINATION Method: Semen is collected in a urine container after masturbation following 3 days of abstinence from ejaculation. Specimen must be examined promptly. Physiologic Basis: Conventional semen analysis includes the determination of sperm count, semen volume, sperm motility (qualitative and quantitative), and sperm morphology. In addition to sperm count, sperm morphology and motility may have the most predictive utility. Infertility can be associated with low counts or with sperm of abnormal morphology or decreased motility. Interpretation: Decreased in- Primary or secondary testicular failure, cryptorchidism, following vasectomy, drugs. Comments: A low sperm count should be confirmed by sending two other appropriately collected semen s"
+ },
+ {
+  "id": "urine_cortisol",
+  "name": "Urine Cortisol",
+  "department": "Clinical Pathology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "URINE_CORTISOL",
+    "name": "Urine Cortisol",
+    "unit": "μg/24 hrs",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological Basis: Urinary free cortisol measurement is useful in the initial evaluation of suspected Cushing syndrome. Interpretation Increased in: Cushing syndrome, acute illness, stress. Not increased in: Obesity. Comments Urinary free cortisol is the initial diagnostic test of choice for Cushing syndrome. Not useful for the diagnosis of adrenal insuffi ciency. A shorter (12-hour) overnight collection and measurement of the ratio of urine-free cortisol to urine creatinine appears to perform nearly as well as a 24-hour collection for urine-free cortisol. ~~~ End of report ~~~"
+ },
+ {
+  "id": "urine_routine",
+  "name": "Urine Routine Examination",
+  "department": "Clinical Pathology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "QUANTITY",
+    "name": "Quantity",
+    "unit": "ml",
+    "ref": "",
+    "type": "number",
+    "group": "Physical Examination"
+   },
+   {
+    "code": "COLOUR",
+    "name": "Colour",
+    "unit": "",
+    "ref": "Pale Yellow",
+    "type": "text",
+    "group": "Physical Examination",
+    "options": null
+   },
+   {
+    "code": "TRANSPARENCY",
+    "name": "Transparency",
+    "unit": "",
+    "ref": "Clear",
+    "type": "text",
+    "group": "Physical Examination",
+    "options": null
+   },
+   {
+    "code": "SPECIFIC_GRAVITY",
+    "name": "Specific Gravity",
+    "unit": "",
+    "ref": "1.005 - 1.03",
+    "type": "number",
+    "group": "Physical Examination"
+   },
+   {
+    "code": "PH",
+    "name": "Ph",
+    "unit": "",
+    "ref": "5-7",
+    "type": "number",
+    "group": "Physical Examination"
+   },
+   {
+    "code": "LEUKOCYTES",
+    "name": "Leukocytes",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Physical Examination",
+    "options": null
+   },
+   {
+    "code": "BLOOD",
+    "name": "Blood",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Physical Examination",
+    "options": null
+   },
+   {
+    "code": "PROTEIN_ALBUMIN",
+    "name": "Protein / Albumin",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Chemical Examination",
+    "options": null
+   },
+   {
+    "code": "SUGAR_GLUCOSE",
+    "name": "Sugar / Glucose",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Chemical Examination",
+    "options": null
+   },
+   {
+    "code": "KETONE_BODIES",
+    "name": "Ketone Bodies",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Chemical Examination",
+    "options": null
+   },
+   {
+    "code": "BILIRUBIN",
+    "name": "Bilirubin",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Chemical Examination",
+    "options": null
+   },
+   {
+    "code": "NITRITE",
+    "name": "Nitrite",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Chemical Examination",
+    "options": null
+   },
+   {
+    "code": "R_B_C",
+    "name": "R.B.C.",
+    "unit": "/HPF",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Microscopic Examination",
+    "options": null
+   },
+   {
+    "code": "PUS_CELLS",
+    "name": "Pus Cells",
+    "unit": "/HPF",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Microscopic Examination",
+    "options": null
+   },
+   {
+    "code": "EPITHILIAL_CELLS",
+    "name": "Epithilial Cells",
+    "unit": "/HPF",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Microscopic Examination",
+    "options": null
+   },
+   {
+    "code": "CASTS",
+    "name": "Casts",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Microscopic Examination",
+    "options": null
+   },
+   {
+    "code": "CRYSTALS",
+    "name": "Crystals",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": "Microscopic Examination"
+   },
+   {
+    "code": "BACTERIA",
+    "name": "Bacteria",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": "Microscopic Examination",
+    "options": null
+   },
+   {
+    "code": "OTHERS",
+    "name": "Others",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": "Microscopic Examination"
+   }
+  ],
+  "interpretation": "Protein: Elevated urinary protein levels can signal early kidney disease but may also rise due to strenuous exercise, orthostatic proteinuria, dehydration, urinary tract infections, or acute illness with fever. Glucose and Ketones: Uncontrolled diabetes mellitus can lead to the presence of glucose in urine. Other causes include pregnancy, hormonal disturbances, liver disease and certain medications. Uncontrolled diabetes mellitus can lead to the presence of ketones in urine. Ketones can also be seen in starvation, frequent vomiting, pregnancy, and strenuous exercise. Blood and Leukocytes: Occult blood can occur in urine as intact erythrocytes or hemoglobin, which can occur in various urological, nephrological, and bleeding disorders. An increase in leukocytes is an indication of inflammation or infection in the urinary tract or"
+ },
+ {
+  "id": "alfa_fetoprotein",
+  "name": "Alfa Fetoprotein",
+  "department": "Endocrinology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ALFA_FETOPROTEIN_AFP",
+    "name": "Alfa Fetoprotein, Afp",
+    "unit": "ng/mL",
+    "ref": "< 10",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Alpha-fetoprotein (AFP) is a crucial protein found in fetal serum, serving a physiological role akin to that of albumin. It is primarily produced in the yolk sac, the fetal liver, and the fetal gastrointestinal tract. However, shortly after birth, AFP levels drop precipitously, becoming virtually undetectable. In healthy adults, AFP levels are typically below 5.4 ng/mL. While elevated AFP levels can occur in various benign conditions, a level exceeding 500 ng/mL is rarely associated with non-malignant issues. During a normal pregnancy, AFP levels may rise but generally do not exceed 100 ng/mL. Elevated AFP levels are also observed in chronic liver diseases such as cirrhosis and hepatitis. AFP plays a pivotal role in the detection of hepatocellular carcinoma and yolk sac tumors. Additionally, it may be sporadically elevated in other malignancies, including certain hepatoid variants of gastric carcinoma. In the case of yolk sac tumors, the AFP level is closely linked to prognosis, with levels surpassing 10,000 ng/mL indicating a poor outcome. For hepatocellular carcinoma, AFP elevation is reported in approximately 70% of patients, underscoring its significance as a biomarker in the d"
+ },
+ {
+  "id": "folic_acid",
+  "name": "Folic Acid",
+  "department": "Endocrinology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "FOLIC_ACID",
+    "name": "Folic Acid",
+    "unit": "ng/mL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Note 1. Drugs like Methotrexate and Leucovorin can affect folate test results. 2. To tell apart vitamin B12 deficiency from folate deficiency, check levels of Methyl malonic acid in urine and Homocysteine in blood. 3. Folic acid has a low risk of toxicity because it's a water-soluble vitamin that’s usually excreted in urine. Comments Folate is crucial for making DNA components and for red blood cell maturation. It comes mainly from plants and some organ meats, but cooking can destroy over half of it. Folate deficiency is common in people with alcoholic liver disease, pregnant women, and the elderly. It can result from poor absorption, inadequate diet, high demand (like in pregnancy or cancer), or certain drugs such as Methotrexate and anticonvulsants Interpretation Decreased Levels: Megaloblastic anemia, Infantile hyperthyroidism, Alcoholism, Malnutrition, Scurvy, Liver disease, B12 deficiency, dietary amino acid excess, adult Celiac disease, Tropical Sprue, Crohn’s disease, Hemolytic anemias, Carcinomas, Myelofibrosis, vitamin B6 deficiency, pregnancy, Whipple’s disease, extensive intestinal resection and severe exfoliative dermatitis. ~~~ End of report ~~~"
+ },
+ {
+  "id": "luteinising_hormone",
+  "name": "Luteinising Hormone",
+  "department": "Endocrinology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "LUTEINISING_HORMONE_LH",
+    "name": "Luteinising Hormone, Lh",
+    "unit": "mIU/mL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis : LH is stimulated by the hypothalamic hormone gonadotropin- releasing hormone (GnRH). It is secreted from the anterior pituitary and acts on the gonads. LH is the principal regulator of steroid biosynthesis in the ovary and testis. Interpretation : Increased in: Primary hypogonadism, polycystic ovary syndrome, postmenopause, endometriosis, after depot leuprolide injection; immunoassay result may be falsely elevated in pregnancy. Decreased in: Pituitary or hypothalamic failure, anorexia nervosa, bulimia, advanced prostate cancer, severe stress, malnutrition, Kallman syndrome (gonadotropin deficiency associated with anosmia). Drugs: digoxin, oral contraceptives, phenothiazines. Comments In male hypogonadism, serum LH and FSH levels can distinguish between primary (hypergonadotropic) and secondary (hypogonadotropic) hypogonadism. Hypogonadism associated with aging (andropause) may present a mixed picture, with low testosterone levels and low to low-normal gonadotropin levels. Repeated measurement may be required to diagnose gonadotropin deficiencies. Elevated serum LH levels are a common feature in polycystic ovary syndrome, but measurement of total testosterone i"
+ },
+ {
+  "id": "prolactin",
+  "name": "Prolactin",
+  "department": "Endocrinology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "PROLACTIN",
+    "name": "Prolactin",
+    "unit": "ng/mL",
+    "ref": "< 15",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis: Prolactin is a polypeptide hormone secreted by the anterior pituitary. It functions in the initiation and maintenance of lactation in the postpartum period. PRL secretion is inhibited by hypothalamic secretion of dopamine. Clinical Use: 1.Diagnosis & management of pituitary adenomas 2.Differential diagnosis of male & female hypogonadism. Interpretation Increased in: 1. Physiologic: Sleep, stress, postprandially, pain, coitus 2. Systemic disorders: Chest wall or thoracic spinal cord lesions, Primary / Secondary hypothyroidism, Adrenal insufficiency, Chronic renal failure, Cirrhosis 3. Medications: - Psychiatric medications like Phenothiazine, Haloperidol, Risperidone, Domperidone, Fluoxetine, Amitriptyline, MAO inhibitors etc., - Antihypertensives: Alpha Methyldopa, Reserpine, Verapamil - Opiates: Heroin, Methadone, Morphine, Apomorphine - Cimetidine / Ranitidine - Prolactin secreting pituitary tumors: Prolactinoma, Acromegaly 4. Miscellaneous: Epileptic seizures, Ectopic secretion of prolactin by non-pituitary tumors, pressure / transaction of pituitary stalk, macroprolactinemia 5. Idiopathic Decreased in: Pituitary deficiency: Pituitary necrosis / infarction ,"
+ },
+ {
+  "id": "t3",
+  "name": "T3",
+  "department": "Endocrinology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "T3",
+    "name": "Serum Triiodothyronine, T3",
+    "unit": "ng/mL",
+    "ref": "0.69 - 2.15",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis T3 is the primary active thyroid hormone. Approximately 80% of T3 is produced by extrathyroidal deiodination of T4 and the rest by thyroid gland. Total T3 is influenced by levels of thyroxine binding proteins. Interpretation Increased in: Hyperthyroidism (some) Increased thyroid binding globulin. Decreased in: Hypothyroidism, nonthyroidal illness, decreased thyroid binding globulin. Drugs: Amiodarone. Comments T3 may be increased in approximately 5% of hyperthyroid patients in whom free T4 is normal (T3 toxicosis). Therefore, the test is indicated when hyperthyroidism is suspected and free T4 value is normal. Test is of no value in the diagnosis and treatment of primary hypothyroidism. ~~~ End of report ~~~"
+ },
+ {
+  "id": "thyroid_stimulating_hormone",
+  "name": "Thyroid Stimulating Hormone",
+  "department": "Endocrinology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "TSH",
+    "name": "Thyroid-Stimulating Hormone, TSH",
+    "unit": "µIU/mL",
+    "ref": "0.3 - 4.5",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis TSH is an anterior pituitary hormone that stimulates the thyroid gland to produce thyroid hormones. Secretion is stimulated by thyrotropin releasing hormone from the hypothalamus. There is negative feedback on TSH secretion by circulating thyroid hormone. Interpretation Increased in: Hypothyroidism, mild increases in recovery phase of acute illness, subclinical hypothyroidism. Decreased in: Hyperthyroidism, subclinical hyperthyroidism, acute medical or surgical illness (euthyroid sick syndrome), pituitary hypothyroidism. Drugs: dopamine, high-dose corticosteroids. Comments TSH assays are used for screening thyroid function, aiding the diagnosis of hyperthyroidism and hypothyroidism, and monitoring thyroid replacement therapy. The currently used TSH immunoassays are very sensitive, typically with functional sensitivity of ≤0.02 mIU/L. Measurement of serum TSH is the best initial laboratory test of thyroid function. It should be followed by measurement of free thyroxine (FT4) if the TSH value is low and by measurement of anti-thyroperoxidase antibody (TPO Ab) if the TSH value is high. Most experts recommend against routine screening of asymptomatic patients, but scr"
+ },
+ {
+  "id": "absolute_eosinophil_count",
+  "name": "Absolute Eosinophil Count",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "AEC",
+    "name": "Absolute Eosinophil Count",
+    "unit": "cumm",
+    "ref": "0 - 440",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis The Absolute Eosinophil Count (AEC) is a measure of the number of eosinophils, a type of white blood cell, in a given volume of blood. The Absolute Eosinophil Count (AEC) is calculated by multiplying the percentage of eosinophils in the total white blood cell count by the total white blood cell count. Interpretation Allergic Reactions Eosinophilia Comments The AEC is typically assessed as part of a complete blood count (CBC) with a differential. If your AEC is outside the normal range, it's important to consult with a healthcare provider to determine the underlying cause and appropriate treatment. ~~~ End of report ~~~"
+ },
+ {
+  "id": "aptt",
+  "name": "APTT",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "PT_PATIENT",
+    "name": "Patient Value",
+    "unit": "",
+    "ref": "22 - 39",
+    "type": "text",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis APTT evaluates the intrinsic and common coagulation pathways and adequacy of all coagulation factors except XIII and VII. APTT is commonly used to monitor unfractionated heparin therapy. Interpretation Increased in: Deficiency of any individual coagulation factor except Factors XIII and VII, presence of nonspecific inhibitor (eg, lupus anticoagulant), specific factor inhibitor, von Willebrand disease (PTT may also be normal), hemophilia A and B, DIC. Drugs: heparin, direct thrombin inhibitor (eg, hirudin, argatroban), warfarin. Decreased in: Hypercoagulable states (eg, increased factor VIII levels). Comments APTT cannot be used to monitor very high doses of heparin (eg, cardiac bypass surgery) because the clotting time is beyond the analytical measurement range of APTT. Heparin contamination is a very common cause of an unexplained prolonged APTT. Heparin neutralization with heparinase may be needed to rule out this possibility. ~~~ End of report ~~~"
+ },
+ {
+  "id": "esr_westergren",
+  "name": "ESR (Westergren)",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ESR",
+    "name": "Erythrocyte Sedimentation Rate",
+    "unit": "",
+    "ref": "0 - 10",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "1. Heart failure 1. Connective tissue disorders 2. Cachexia 2. Infections e.g., TB, acute hepatitis, bacterial 3. PRV or secondary Conditions featuring abnormal blood cells 3. Hematological disease e.g., multiple myeloma, anemia of acute e.g., sickle cell anemia, hereditary spherocytosis, acanthocytosis or chronic disease, alone or combined with iron deficiency anemia 4. Microcytosis 4. Malignancy e.g., lymphoma, breast or colon cancer 5. Hypofibrinogenemia e.g. DIC, 5. Pregnancy 6. Massive hepatic necrosis 6. Oral contraceptive pill users 7. High white cell count 7. Obesity can cause a moderately raised ESR 8. Treatment with steroids NB: Very high (>100) ESR is found in autoimmune disease, malignancy, acute post-trauma, and serious infection. A false high ESR can occur if the ambient temperature is unusually high. ~~~ End of report ~~~"
+ },
+ {
+  "id": "esr_wintrobe",
+  "name": "ESR (Wintrobe)",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ESR",
+    "name": "Erythrocyte Sedimentation Rate",
+    "unit": "",
+    "ref": "0-9",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "1. Heart failure 1. Connective tissue disorders 2. Cachexia 2. Infections e.g., TB, acute hepatitis, bacterial 3. PRV or secondary Conditions featuring abnormal blood cells 3. Hematological disease e.g., multiple myeloma, anemia of acute e.g., sickle cell anemia, hereditary spherocytosis, acanthocytosis or chronic disease, alone or combined with iron deficiency anemia 4. Microcytosis 4. Malignancy e.g., lymphoma, breast or colon cancer 5. Hypofibrinogenemia e.g. DIC, 5. Pregnancy 6. Massive hepatic necrosis 6. Oral contraceptive pill users 7. High white cell count 7. Obesity can cause a moderately raised ESR 8. Treatment with steroids NB: Very high (>100) ESR is found in autoimmune disease, malignancy, acute post-trauma, and serious infection. A false high ESR can occur if the ambient temperature is unusually high. ~~~ End of report ~~~"
+ },
+ {
+  "id": "g6pd",
+  "name": "G6PD",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "GLUCOSE_6_PHOSPHATE",
+    "name": "Glucose-6-Phosphate",
+    "unit": "g",
+    "ref": "5.5 - 20.5",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis G6PD is an enzyme in the hexose monophosphate shunt that is essential in generating reduced glutathione and NADPH, which protect hemoglobin from oxidative denaturation. Inherited G6PD deficiency causes neonatal hyperbilirubinemia and chronic hemolytic anemia and exposure to oxidative stressors such as certain drugs or infection, can elicit significant acute hemolysis. Interpretation Increased in: Young erythrocytes (reticulocytosis) Decreased in: G6PD deficiency Causes of hemolysis in glucose-6- phosphate dehydrogenase deficiency 1. Bacterial and viral infections 2. Drugs: • Antimalarials: Primaquine, pamaquine • Antibacterials: Sulfonamides, nalidixic acid, nitrofurantoin, dapsone • Antipyretics and analgesics 3. Chemicals: Naphthalene balls Comments In deficient patients, hemolytic anemia can be triggered by oxidant agents: antimalarial drugs (eg, chloroquine), nalidixic acid, nitrofurantoin, dapsone, phenacetin, vitamin C, and some sulfonamides. Patients from high-risk groups (eg, African American and people from the Mediterranean region) should be screened for G6PD deficiency before taking an oxidant drug. Hemolytic episodes can also occur in deficient patient"
+ },
+ {
+  "id": "hemoglobin",
+  "name": "Hemoglobin",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "HB",
+    "name": "Hemoglobin",
+    "unit": "g/dl",
+    "ref": "13 - 17",
+    "type": "number",
+    "group": null,
+    "ranges": [
+     {
+      "sex": "M",
+      "text": "13 - 17"
+     },
+     {
+      "sex": "F",
+      "text": "12 - 15"
+     },
+     {
+      "sex": "any",
+      "text": "13 - 17"
+     }
+    ]
+   }
+  ],
+  "interpretation": "Hemoglobin is the major protein of erythrocytes that transports oxygen from the lungs to peripheral tissues. It is measured by spectrophotometry on automated instruments after lysis of red cells and conversion of all hemoglobin to cyanmethemoglobin. 1. Macrocytic anemia (liver disease, hypothyroidism, vitamin B 12 deficiency, folate 1. Hemoconcentration (as in deficiency, myelodysplasia) dehydration, Burns, vomiting) 2. Normocytic anemia (early iron deficiency, anemia of chronic disease, hemolytic anemia, 2. Polycythemia (erythrocytosis) acute hemorrhage, bone marrow infiltration), 3. Extreme physical exercise. 3. Microcytic anemia (iron deficiency, thalassemia) Hemodilution Comments: The cyanmethemoglobin technique is the method of choice selected by the International Committee for Standardization in Hematology. The method measures all hemoglobin derivatives except sulfhemoglobin by hemolyzing the specimen and adding a reducing agent. As such, this method does not distinguish between intracellular versus extracellular hemoglobin (hemolysis). Hypertriglyceridemia and very high white blood cell counts can cause false elevations of Hb. ~~~ End of report ~~~"
+ },
+ {
+  "id": "mf_card_test",
+  "name": "MF Card Test",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "FILARIAL_PARASITE_CARD_T",
+    "name": "Filarial Parasite (Card Test)",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   }
+  ],
+  "interpretation": "Note: - Positive results are seen in parasitic disease of the human lymph system caused by Wuchereria bancrofti (W. bancrofti) leading to conditions like lymphedema, hydrocele and disfiguring disease of elephantiasis. - Results should be correlated with clinical conditions and tests like thick smear microscopy and membrane filtration test. - False positive results may be due to cross-reactivity with Loa loa spp or other nematode infection. - False negative reactions may be due to the processing of samples collected early in the course of disease or low threshold of antigen. The test should be repeated on a new specimen obtained after two weeks. Uses - To diagnose lymphatic and non-lymphatic filariasis. - For mapping the endemicity of lymphatic filariasis. - For monitoring and transmission assessment surveys (TAS) of Wuchereria bancrofti. ~~~ End of report ~~~"
+ },
+ {
+  "id": "mp_card_test",
+  "name": "Malaria Parasite (Card Test)",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "PLASMODIUM_FALCIPARUM_PF",
+    "name": "Plasmodium Falciparum \"Pf\"",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   },
+   {
+    "code": "PLASMODIUM_VIVAX_PV",
+    "name": "Plasmodium Vivax \"Pv\"",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   }
+  ],
+  "interpretation": "Malaria antigen detection-whole blood Four species of the plasmodium parasites are responsible for human malaria infections: P. falciparum, P. vivax, P. ovale and P. malariae. Early detection and differentiation of malaria is of paramount importance due to incidence of cerebral malaria and drug resistance associated with P. falciparum malaria causing most of the morbidity and mortality worldwide. Test Utility The current test is a qualitative test for detection of the P. falciparum specific histidine rich protein-2 (Pf. HRP-2) and P. vivax specific lactate dehydrogenase (pLDH) in whole blood samples. The assay is able to detect and distinguish P. vivax and P. falciparum infections and also identify mixed infections. Notes & Limitations The test detects P. falciparum specific HRP-2 and P. vivax specific LDH, a negative test result does not rule out infection with P. ovale and P. malariae. Constant exposure to the malarial parasites, as seen in areas of high endemicity, may result in positive results with doubtful clinical significance. Hence, the results must always be correlated with clinical history and relevant epidemiological and therapeutic context. ~~~ End of report ~~~"
+ },
+ {
+  "id": "platelet_count",
+  "name": "Platelet Count",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "PLT",
+    "name": "Platelet Count",
+    "unit": "lakhs/cumm",
+    "ref": "1.5 - 4.1",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Platelets are released from megakaryocytes in bone marrow and are important for normal hemostasis. An estimated platelet count may be obtained from blood smear by multiplying the number of platelets per 100 × oil immersion field by 10,000. Comments Platelet counts are determined in patients with suspected bleeding disorders, purpura or petechiae, leukemia/lymphoma, or DIC, and in patients on chemotherapy, and to determine the response to platelet transfusions. There is little tendency to bleed until the platelet count falls below 0.2Lakhs/cumm. Bleeding due to low platelet counts typically presents as petechiae, epistaxis, and gingival bleeding. For invasive procedures, platelet counts > 0.5 Lakhs/cumm are desirable. ~~~ End of report ~~~"
+ },
+ {
+  "id": "ptinr",
+  "name": "Prothrombin Time (PT/INR)",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "PT_PATIENT",
+    "name": "Patient Value",
+    "unit": "",
+    "ref": "10 - 16",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "PT_CONTROL",
+    "name": "Control Value",
+    "unit": "",
+    "ref": "",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "ISI",
+    "name": "Isi (International Sensitivity",
+    "unit": "",
+    "ref": "",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "INR",
+    "name": "INR Value",
+    "unit": "",
+    "ref": "",
+    "type": "number",
+    "group": "Index)",
+    "derived": true
+   }
+  ],
+  "interpretation": "Physiologic Basis PT evaluates the extrinsic and common coagulation pathways.The time required for fibrin clot formation is determined. It is most sensitive to deficiencies in the vitamin K-dependent clotting factors II, VII, and X. It is also sensitive to deficiency of factor V. It is less sensitive to fibrinogen deficiency and heparin. PT/INR tests are increasingly being used for monitoring warfarin therapy. Interpretation Increased in: Warfarin, liver disease, DIC, vitamin K deficiency, hereditary deficiency in factors VII, X, V and II, fibrinogen abnormality (eg, hypofibrinogenemia, afibrinogenemia, dysfibrinogenemia), circulating anticoagulant affecting the PT system (rarely lupus anticoagulant), massive transfusion. Decreased in: Recombinant factor F VII treatment Comments Warfarin therapeutic range is INR 2.0 - 3.0. Bleeding has been reported to be 3 × more common in patients with INRs of 3.0–4.5 than in patients with INRs of 2.0–3.0. ~~~ End of report ~~~"
+ },
+ {
+  "id": "reticulocyte_count",
+  "name": "Reticulocyte Count",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "RETICULOCYTE_COUNT",
+    "name": "Reticulocyte Count",
+    "unit": "%",
+    "ref": "0.5 - 2.5",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis: Reticulocytes are young red blood cells that contain cytoplasmic RNA. A reticulocyte count measures how rapidly reticulocytes are produced by the bone marrow and then released into the bloodstream. Reticulocyte count reflects the erythropoietic activity of the bone marrow and is thus useful in both the diagnosis of anemias and in monitoring bone marrow response to therapy. Interpretation Increased in: Hemolytic anemia, blood loss (before development of iron deficiency), recovery from iron, B12 or folate deficiency, or from drug-induced anemia. Decreased in: Iron deficiency anemia, aplastic anemia, anemia of chronic disease, megaloblastic anemia, sideroblastic anemia, pure red cell aplasia, renal disease, bone marrow suppression or infiltration, myelodysplastic syndrome. Comments This test is indicated for the evaluation of anemia to distinguish hypoproliferative from hemolytic anemia or blood loss. The old method of measuring reticulocytes (manual staining and counting) has poor reproducibility. It has been replaced by automated methods (eg, flow cytometry-based), which are more precise and provide absolute reticulocyte counts. ~~~ End of report ~~~"
+ },
+ {
+  "id": "tlc",
+  "name": "Total Leukocyte Count (TLC)",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "TLC",
+    "name": "Total Leukocyte Count",
+    "unit": "cumm",
+    "ref": "4,800 - 10,800",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis The WBC count and differential determine the total number of white blood cells as well as the percentage and absolute number of each type of white cell in a blood sample. It is typically generated by an automated laboratory hematology analyzer as part of the CBC panel. Interpretation Increased in: Acute infections, inflammatory disorders, acute and chronic leukemias, myeloproliferative disorders, solid tumor (paraneoplastic reaction), circulating lymphoma, tissue injury/necrosis, G-CSF stimulation, various drugs, corticosteroids, allergies, hypersensitivity reactions, stress, smoking. Decreased in: Infections, constitutional and acquired myeloid hypoplasia, myelosuppression (eg, chemotherapy, radiation, various drugs), myelodysplasia, collagen vascular diseases, hypersplenism, cyclic neutropenia, autoimmune neutropenia, alcoholism. Comments There are five types of white cells, each with different functions: neutrophils, lymphocytes, monocytes, eosinophils, and basophils. Absolute counts for individual cell populations can be calculated from a combination of the WBC count and the percentage of each cell type from the differential. ~~~ End of report ~~~"
+ },
+ {
+  "id": "acid_fast_bacilli",
+  "name": "Acid Fast Bacilli (AFB)",
+  "department": "Microbiology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "SAMPLE_TYPE",
+    "name": "Sample Type",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   },
+   {
+    "code": "RESULT",
+    "name": "Result",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   }
+  ],
+  "interpretation": "Note: A positive Acid-Fast Bacillus (AFB) smear result provides an initial indication of a Mycobacterial infection. The positivity and grade of the smear suggest the relative bacterial burden and correlate with the clinical presentation of the disease. Conversely, a negative AFB smear may indicate the absence of Mycobacterial infection or that the Mycobacteria are present in insufficient numbers to be detected under the microscope. It does not, however, differentiate between viable and non-viable organisms, nor does it distinguish between different Mycobacterial species. Usage: This test is employed to detect acid-fast bacteria, primarily Mycobacterium tuberculosis, for the purposes of diagnosing and monitoring tuberculosis. ~~~ End of report ~~~"
+ },
+ {
+  "id": "blood_culture_sensitivity",
+  "name": "Blood Culture Sensitivity",
+  "department": "Microbiology",
+  "kind": "culture",
+  "parameters": [],
+  "interpretation": ""
+ },
+ {
+  "id": "grams_stain",
+  "name": "Gram's Stain",
+  "department": "Microbiology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "SAMPLE_TYPE",
+    "name": "Sample Type",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   },
+   {
+    "code": "RESULT",
+    "name": "Result",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   }
+  ],
+  "interpretation": ""
+ },
+ {
+  "id": "pus_culture_sensitivity",
+  "name": "Pus Culture Sensitivity",
+  "department": "Microbiology",
+  "kind": "culture",
+  "parameters": [],
+  "interpretation": ""
+ },
+ {
+  "id": "sputum_culture_sensitivity",
+  "name": "Sputum Culture Sensitivity",
+  "department": "Microbiology",
+  "kind": "culture",
+  "parameters": [],
+  "interpretation": ""
+ },
+ {
+  "id": "stool_culture_sensitivity",
+  "name": "Stool Culture Sensitivity",
+  "department": "Microbiology",
+  "kind": "culture",
+  "parameters": [],
+  "interpretation": ""
+ },
+ {
+  "id": "urine_culture_sensitivity",
+  "name": "Urine Culture Sensitivity",
+  "department": "Microbiology",
+  "kind": "culture",
+  "parameters": [],
+  "interpretation": ""
+ },
+ {
+  "id": "cbc",
+  "name": "Complete Blood Count (CBC)",
+  "department": "Haematology",
+  "kind": "panel",
+  "parameters": [
+   {
+    "code": "HB",
+    "name": "Hemoglobin",
+    "unit": "g/dl",
+    "ref": "13 - 17",
+    "type": "number",
+    "group": null,
+    "ranges": [
+     {
+      "sex": "M",
+      "text": "13 - 17"
+     },
+     {
+      "sex": "F",
+      "text": "12 - 15"
+     },
+     {
+      "sex": "any",
+      "text": "13 - 17"
+     }
+    ]
+   },
+   {
+    "code": "TLC",
+    "name": "Total Leukocyte Count",
+    "unit": "cumm",
+    "ref": "4,800 - 10,800",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "NEUT",
+    "name": "Neutrophils",
+    "unit": "%",
+    "ref": "40 - 80",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "LYMPH",
+    "name": "Lymphocyte",
+    "unit": "%",
+    "ref": "20 - 40",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "EOS",
+    "name": "Eosinophils",
+    "unit": "%",
+    "ref": "1 - 6",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "MONO",
+    "name": "Monocytes",
+    "unit": "%",
+    "ref": "2 - 10",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "BASO",
+    "name": "Basophils",
+    "unit": "%",
+    "ref": "< 2",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "PLT",
+    "name": "Platelet Count",
+    "unit": "lakhs/cumm",
+    "ref": "1.5 - 4.1",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "RBC",
+    "name": "Total RBC Count",
+    "unit": "million/cumm",
+    "ref": "4.5 - 5.5",
+    "type": "number",
+    "group": null,
+    "ranges": [
+     {
+      "sex": "M",
+      "text": "4.5 - 5.5"
+     },
+     {
+      "sex": "F",
+      "text": "3.8 - 4.8"
+     },
+     {
+      "sex": "any",
+      "text": "4.5 - 5.5"
+     }
+    ]
+   },
+   {
+    "code": "HCT",
+    "name": "Hematocrit Value, HCT",
+    "unit": "%",
+    "ref": "40 - 50",
+    "type": "number",
+    "group": null,
+    "ranges": [
+     {
+      "sex": "M",
+      "text": "40 - 50"
+     },
+     {
+      "sex": "F",
+      "text": "36 - 46"
+     },
+     {
+      "sex": "any",
+      "text": "40 - 50"
+     }
+    ]
+   },
+   {
+    "code": "MCV",
+    "name": "Mean Corpuscular Volume, MCV",
+    "unit": "fL",
+    "ref": "83 - 101",
+    "type": "number",
+    "group": null,
+    "decimals": 1,
+    "derived": true
+   },
+   {
+    "code": "MCH",
+    "name": "Mean Cell Haemoglobin, MCH",
+    "unit": "pg",
+    "ref": "27 - 32",
+    "type": "number",
+    "group": null,
+    "decimals": 1,
+    "derived": true
+   },
+   {
+    "code": "MCHC",
+    "name": "Mean Cell Haemoglobin Con, MCHC",
+    "unit": "%",
+    "ref": "31.5 - 34.5",
+    "type": "number",
+    "group": null,
+    "decimals": 1,
+    "derived": true
+   }
+  ],
+  "interpretation": "A complete blood count (CBC) is used to evaluate overall health and detect a wide range of disorders, including anaemia, infection and leukaemia. WBC and platelet counts may be lower in venous than in capillary samples while still lying within reference ranges."
+ },
+ {
+  "id": "free_thyroid_function_test",
+  "name": "Free Thyroid Function Test (FTFT)",
+  "department": "Endocrinology",
+  "kind": "panel",
+  "parameters": [
+   {
+    "code": "FT3",
+    "name": "Free Triiodothyronine L, FT3",
+    "unit": "pg/mL",
+    "ref": "2 - 4.2",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "FT4",
+    "name": "Free Thyroxine, FT4",
+    "unit": "pg/mL",
+    "ref": "8.9 - 17.2",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "TSH",
+    "name": "Thyroid-Stimulating Hormone, TSH",
+    "unit": "µIU/mL",
+    "ref": "0.3 - 4.5",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "FT4 is a direct measure of the free T4 hormone concentration (biologically available hormone). The free thyroxine is used along with sensitive TSH assays for detecting clinical hyperthyroidism and hypothyroidism. The TSH assay detects subclinical thyroid dysfunction (normal FT4) and monitors levothyroxine treatment better, whereas the free thyroxine test detects central hypothyroidism and monitors rapidly changing function status better. i. Elevated Free T3 and Free T4 with Low TSH: This often indicates hyperthyroidism, where the thyroid gland is overactive. ii. Low Free T3 and Free T4 with Elevated TSH: This usually points to hypothyroidism, where the thyroid gland is underactive. iii. Normal Free T3 and Free T4 with Normal TSH: This suggests that the thyroid is functioning normally. iv. Normal Free T3 and Free T4 with High TSH: This could indicate subclinical hypothyroidism, where the thyroid is slightly underactive but not enough to cause obvious symptoms. Each individual's situation can be unique, so it's always best to discuss test results with a healthcare provider to get a complete understanding in the context of your overall health. ~~~ End of report ~~~"
+ },
+ {
+  "id": "iron_studies",
+  "name": "Iron Studies",
+  "department": "Biochemistry",
+  "kind": "panel",
+  "parameters": [
+   {
+    "code": "IRON",
+    "name": "Iron",
+    "unit": "μg/dl",
+    "ref": "65 - 175",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "UIBC",
+    "name": "Uibc",
+    "unit": "μg/dl",
+    "ref": "155 - 355",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "TIBC",
+    "name": "Total Iron Binding Capacity (TIBC)",
+    "unit": "μg/dl",
+    "ref": "240 - 450",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "TSAT",
+    "name": "Transferrin Saturation",
+    "unit": "%",
+    "ref": "20 - 55",
+    "type": "number",
+    "group": null,
+    "derived": true
+   }
+  ],
+  "interpretation": "Physiological basis Plasma iron concentration is determined by absorption from the intestine; storage in the intestine, liver, spleen, bone marrow, rate of breakdown or loss of hemoglobin, and rate of synthesis of new hemoglobin. Interpretation for Iron (Fe), serum or plasma TIBC correlates with serum transferrin, but the relationship is not linear over a wide range of transferrin values and is disrupted in diseases affecting transferrin-binding capacity or other iron-binding proteins. Increased in: Iron deficiency anemia, late pregnancy, infancy, acute hepatitis. Drugs: oral contraceptives. Decreased in: Hypoproteinemic states (eg, nephrotic syndrome, starvation, malnutrition, cancer), hemochromatosis, thalassemia, hyperthyroidism, chronic infections, chronic inflammatory disorders, chronic liver disease, and other chronic diseases. Increased % transferrin saturation with iron is seen in iron overload (iron poisoning, hemolytic anemia, sideroblastic anemia, thalassemia, hemochromatosis, pyridoxine deficiency, aplastic anemia, RBC transfusions). Decreased % transferrin saturation w"
+ },
+ {
+  "id": "kft",
+  "name": "Kidney Function Test (KFT)",
+  "department": "Biochemistry",
+  "kind": "panel",
+  "parameters": [
+   {
+    "code": "BUN",
+    "name": "BUN",
+    "unit": "mg/dl",
+    "ref": "7.9 - 20",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "UREA",
+    "name": "Serum Urea",
+    "unit": "mg/dl",
+    "ref": "19 - 45",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "CREAT",
+    "name": "Serum Creatinine",
+    "unit": "mg/dl",
+    "ref": "0.72 - 1.18",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "EGFR",
+    "name": "EGFR",
+    "unit": "ml/min/1.73m^2",
+    "ref": "> 90",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "EGFR_CAT",
+    "name": "EGFR Category",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "CA",
+    "name": "Serum Calcium",
+    "unit": "mg/dl",
+    "ref": "8.8 - 10.6",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "K",
+    "name": "Serum Potassium",
+    "unit": "",
+    "ref": "3.5 - 5.1",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "NA",
+    "name": "Serum Sodium",
+    "unit": "",
+    "ref": "136 - 146",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "UA",
+    "name": "Serum Uric Acid",
+    "unit": "mg/dl",
+    "ref": "3.5 - 7.2",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "UREA_CREAT",
+    "name": "Urea / Creatinine Ratio",
+    "unit": "",
+    "ref": "",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "BUN_CREAT",
+    "name": "BUN / Creatinine Ratio",
+    "unit": "",
+    "ref": "",
+    "type": "number",
+    "group": null,
+    "derived": true
+   }
+  ],
+  "interpretation": "Creatinine is a nitrogenous waste product formed in muscle from creatine phosphate. Endogenous production of creatinine is proportional to muscle mass and body weight. 1. Pre-renal, renal, and post-renal azotemia 1. Pregnancy 2. Large amount of dietary meat 2. Increasing age (reduction in muscle mass) 3. Active acromegaly and gigantism GFR is measured to (i) detect suspected incipient kidney disease (i.e. early detection), (ii)monitor the course of established kidney disease, (iii) plan renal replacement therapy in advanced renal disease, and (iv) adjust the dosage of certain drugs which are nephrotoxic. BUN/creatinine ratio is to discriminate pre-renal and post-renal azotemia from renal azotemia. ~~~ End of report ~~~"
+ },
+ {
+  "id": "lft",
+  "name": "Liver Function Test (LFT)",
+  "department": "Biochemistry",
+  "kind": "panel",
+  "parameters": [
+   {
+    "code": "BILI_T",
+    "name": "Serum Bilirubin (Total)",
+    "unit": "mg/dl",
+    "ref": "0.2 - 1.2",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "BILI_D",
+    "name": "Serum Bilirubin (Direct)",
+    "unit": "mg/dl",
+    "ref": "0 - 0.3",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "BILI_I",
+    "name": "Serum Bilirubin (Indirect)",
+    "unit": "mg/dl",
+    "ref": "0.2 - 1",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "SGPT",
+    "name": "SGPT (Alt)",
+    "unit": "U/I",
+    "ref": "13 - 40",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "SGOT",
+    "name": "SGOT (Ast)",
+    "unit": "U/I",
+    "ref": "0 - 37",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "ALP",
+    "name": "Serum Alkaline Phosphatase",
+    "unit": "U/I",
+    "ref": "",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "PROT",
+    "name": "Serum Protein",
+    "unit": "g/dl",
+    "ref": "6.4 - 8.3",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "ALB",
+    "name": "Serum Albumin",
+    "unit": "g/dl",
+    "ref": "3.5 - 5.2",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "GLOB",
+    "name": "Globulin",
+    "unit": "g/dl",
+    "ref": "1.8 - 3.6",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "AG",
+    "name": "A/G Ratio",
+    "unit": "",
+    "ref": "1.1 - 2.1",
+    "type": "number",
+    "group": null,
+    "derived": true
+   }
+  ],
+  "interpretation": "LFT Interpretation Liver Function Blood Test gives an insight into your liver health and helps identify problems like hepatitis, cirrhosis, and fatty liver disease, which may cause similar symptoms but require different treatments to recover. Test Significance Besides diagnosing liver problems, LFT’s also monitor overall liver functioning. Monitoring helps people with liver disease or taking medication, as it helps screen whether the treatment works fine or requires adjustments. Moreover, Liver Function Tests help determine if someone is at risk of developing liver diseases. Apart from assessing your chances, this test also checks the severity of the liver damage to help the doctor plan and prescribe appropriate treatment. Increased in: Acute or chronic hepatitis, cirrhosis, biliary tract obstruction, toxic hepatitis, neonatal jaundice (neonatal hyperbilirubinemia), congenital liver enzyme abnormalities (Dubin-Johnson, Rotor, Gilbert, Crigler-Najjar syndromes), fasting, hemolytic disorders. Hepatotoxic drugs. ~~~ End of report ~~~"
+ },
+ {
+  "id": "lipid_profile",
+  "name": "Lipid Profile",
+  "department": "Biochemistry",
+  "kind": "panel",
+  "parameters": [
+   {
+    "code": "CHOL",
+    "name": "Total Cholesterol",
+    "unit": "mg/dl",
+    "ref": "125 - 200",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "TG",
+    "name": "Triglycerides",
+    "unit": "mg/dl",
+    "ref": "25 - 200",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "HDL",
+    "name": "HDL Cholesterol",
+    "unit": "mg/dl",
+    "ref": "35 - 80",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "LDL",
+    "name": "LDL Cholesterol",
+    "unit": "mg/dl",
+    "ref": "85 - 130",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "VLDL",
+    "name": "VLDL Cholesterol",
+    "unit": "mg/dl",
+    "ref": "5 - 40",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "LDL_HDL",
+    "name": "LDL / HDL",
+    "unit": "",
+    "ref": "1.5 - 3.5",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "CHOL_HDL",
+    "name": "Total Cholesterol / HDL",
+    "unit": "",
+    "ref": "3.5 - 5",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "TG_HDL",
+    "name": "Tg / HDL",
+    "unit": "",
+    "ref": "",
+    "type": "number",
+    "group": null,
+    "derived": true
+   },
+   {
+    "code": "NONHDL",
+    "name": "Non-HDL Cholesterol",
+    "unit": "",
+    "ref": "",
+    "type": "number",
+    "group": null,
+    "derived": true
+   }
+  ],
+  "interpretation": "Abnormalities of lipids are associated with increased risk of coronary artery disease (CAD) in patients with DM. This risk can be reduced by intensive treatment of lipid abnormalities. The usual pattern of lipid abnormalities in type 2 DM is elevated triglycerides, decreased HDL cholesterol and higher proportion of small, dense LDL particles. Cholesterol is a lipid found in all cell membranes and in blood plasma. It is an essential component of the cell membranes, and is necessary for synthesis of steroid hormones, and for the formation of bile acids. Cholesterol is synthesized by the liver and many other organs, and is also ingested in the diet. Triglycerides are lipids in which three long-chain fatty acids are attached to glycerol. They are present in dietary fat and also synthesized by liver and adipose tissue. Newer treatment goals and statin initiation thresholds based on the risk categories proposed by Lipid Association of India in 2020. (Optional Goal<=30) (Optional Goal<=60)"
+ },
+ {
+  "id": "thyroid_function_test",
+  "name": "Thyroid Function Test (TFT)",
+  "department": "Endocrinology",
+  "kind": "panel",
+  "parameters": [
+   {
+    "code": "T3",
+    "name": "Serum Triiodothyronine, T3",
+    "unit": "ng/mL",
+    "ref": "0.69 - 2.15",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "T4",
+    "name": "Serum Thyroxine, T4",
+    "unit": "ng/mL",
+    "ref": "52 - 127",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "TSH",
+    "name": "Thyroid-Stimulating Hormone, TSH",
+    "unit": "µIU/mL",
+    "ref": "0.3 - 4.5",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Total T4 is a measure of thyroid gland secretion of T4, bound and free, and thus is influenced by levels of thyroid hormone binding proteins. Only free T4 is biologically active. TSH is an anterior pituitary hormone that stimulates the thyroid gland to produce thyroid hormones. Secretion is stimulated by thyrotropin releasing hormones from the hypothalamus. There is negative feedback on TSH secretion by circulating thyroid hormone. T3 is the primary active thyroid hormone. Approximately 80% of T3 is produced by extrathyroidal deiodination of T4 and the rest by thyroid gland. Total T3 is influenced by levels of thyroxine binding proteins. Patterns of Thyroid Function Tests in Patients with Thyroid Disease ~~~ End of report ~~~"
+ },
+ {
+  "id": "viral_marker",
+  "name": "Viral Marker",
+  "department": "Serology & Immunology",
+  "kind": "panel",
+  "parameters": [
+   {
+    "code": "HIV_1",
+    "name": "HIV - 1",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": "HIV (Card Test)",
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   },
+   {
+    "code": "HIV_2",
+    "name": "HIV - 2",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": "HIV (Card Test)",
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   },
+   {
+    "code": "VDRL",
+    "name": "VDRL",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": "HIV (Card Test)",
+    "options": [
+     "NON REACTIVE",
+     "REACTIVE"
+    ]
+   },
+   {
+    "code": "HEPATITIS_C_VIRUS_HCV",
+    "name": "Hepatitis C Virus, Hcv",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": "HIV (Card Test)",
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   },
+   {
+    "code": "HBSAG",
+    "name": "HBSAG",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": "HIV (Card Test)",
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   }
+  ],
+  "interpretation": "HbsAg is the first serologic marker appearing in the serum 6-16 weeks following hepatitis B viral infection. In typical HBV infection, HBsAg will be detected 2-4 weeks before the liver enzyme levels (ALT) become abnormal and 3-5 weeks before the patient develops jaundice. In acute cases HbsAg usually disappears 1-2 months after the onset of symptoms. Persistence of HbsAg for more than 6 months indicates development of either a chronic carrier state or chronic liver disease. The presence of HbsAg is frequently associated with infectivity. HbsAg when accompanied by Hepatitis Be antigen and/or hepatitis B viral DNA almost always indicates infectivity. Anti HCV card test interpretation Reactive test result indicates presence of Hepatitis C virus infection. Active infection to be confirmed by HCV RNA PCR test. It cannot differentiate between the stages of Hepatitis C viral infection nor used to monitor the efficacy of treatment. Non- Reactive test result indicates Hepatitis C virus infection is unlikely. HIV Interpretation A negative result implies that no Anti HIV-1 & HIV-2 antibodies have been detected in the sample by this method. This means that either the patient has not been expos"
+ },
+ {
+  "id": "ana",
+  "name": "ANA by ELISA",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ANTI_NUCLEAR_ANTIBODY_AN",
+    "name": "Anti Nuclear Antibody (ANA) By",
+    "unit": "",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Heterogeneous antibodies to nuclear antigens (DNA and RNA, histone, and nonhistone proteins). Nuclear antibody is measured in serum by layering the patient’s serum over human epithelial cells and detecting the antibody with fluorescein conjugated polyvalent antihuman immunoglobulin. Enzyme-linked immunosorbent assay (ELISA) is also available for ANA detection, but has lower sensitivity for systemic lupus erythematosus (SLE) compared with immunofluorescence assay(IFA). Interpretation Elevated in: Patients over age 65 (35–75%, usually in low titers), SLE (98%), drug- induced lupus (100%), Sjögren syndrome (80%), rheumatoid arthritis (30–50%), scleroderma (60%), mixed connective tissue disease (100%), Felty syndrome, mononucleosis, hepatic or biliary cirrhosis, hepatitis, leukemia, myasthenia gravis, dermatomyositis, polymyositis, chronic renal failure. Comments A negative ANA test does not completely rule out SLE, but alternative diagnoses should be considered. The pattern of ANA staining may give some clues to diagnosis, but because the pattern also changes with serum dilution, it is not routinely reported. Only the rim (peripheral) pattern is highly specific (f"
+ },
+ {
+  "id": "anti_cardiolipin_antibodies",
+  "name": "Anti Cardiolipin Antibodies",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ANTI_CARDIOLIPIN_IGG",
+    "name": "Anti Cardiolipin Igg",
+    "unit": "GPL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "ANTI_CARDIOLIPIN_IGM",
+    "name": "Anti Cardiolipin Igm",
+    "unit": "MPL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Comments ACA is a type of antiphospholipid antibody. Diagnostic Importance: ACA are significant in diagnosing - 1. Venous or arterial thrombosis 2. Thrombocytopenia 3. Livedo Reticularis 4. Recurrent miscarriages 5. Neurological symptoms Other Associations: Elevated ACA levels can also be linked to cardiovascular insufficiency and myocardial infarction. ~~~ End of report ~~~"
+ },
+ {
+  "id": "anti_phospholipid_antibodies",
+  "name": "Anti Phospholipid Antibodies",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ANTI_PHOSPHOLIPID_IGG",
+    "name": "Anti Phospholipid Igg",
+    "unit": "GPL U/mL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "ANTI_PHOSPHOLIPID_IGM",
+    "name": "Anti Phospholipid Igm",
+    "unit": "MPL U/mL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "2006 International Consensus statement on Classification of definite APS Note: APS is diagnosed if at least one laboratory criterion and one clinical criterion are met. For the laboratory criteria, they need to be observed on two or more separate occasions, with each test done at least 12 weeks apart. Comments A phospholipid antibody test measures the levels of autoantibodies against cardiolipin, phosphatidylserine, phosphatidylinositol, and phosphatidic acid. It helps diagnose an increased risk of blood clots in patients with systemic lupus erythematosus (20-35% of cases) and other similar disorders. This test is also used to diagnose Antiphospholipid syndrome (APS) in patients with recent miscarriage (11-22% in all trimesters), Pulmonary hypertension, Non-vegetative endocarditis, Livedo Reticularis, Stroke at young age and Deep vein thrombosis. ~~~ End of report ~~~"
+ },
+ {
+  "id": "aso_titer",
+  "name": "ASO Titer",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "ANTISTREPTOLYSIN_O_ASO_T",
+    "name": "Antistreptolysin O, ASO Titer",
+    "unit": "IU/mL",
+    "ref": "< 200",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological Basis Detects the presence of antibody to the antigen streptolysin O produced by group A streptococci. Streptococcal antibodies appear about 2 weeks after infection. Titer rises to a peak at 4–6 weeks and may remain elevated for 6 months to 1 year. Test is based on the neutralization of hemolytic activity of streptolysin O toxin by antistreptolysin O antibodies in serum. Interpretation Increased in: Recent infection with group A β-hemolytic streptococci: scarlet fever, erysipelas, streptococcal pharyngitis/tonsillitis (40– 50%), rheumatic fever (80–85%), poststreptococcal glomerulonephritis. Some collagen vascular diseases, certain serum lipoproteins, bacterial growth products, or oxidized streptolysin O may result in inhibition of hemolysis and thus cause false-positive results. Comments In patients with rheumatic fever, the test may be a more reliable indicator of recent streptococcal infection than throat culture. An increasing titer is more suggestive of acute streptococcal infection than a single elevated level. Even with severe infection, ASO titers rise in only 70–80% of patients. ASO and anti-DNase-B together increase test sensitivity. The normal range increas"
+ },
+ {
+  "id": "beta_2_glycoprotein_1_antibodies",
+  "name": "Beta 2 Glycoprotein 1 Antibodies",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "BETA_2_GLYCOPROTEIN_1_IG",
+    "name": "Beta 2 Glycoprotein 1, Igg",
+    "unit": "SGU",
+    "ref": "",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "BETA_2_GLYCOPROTEIN_1_IG_2",
+    "name": "Beta 2 Glycoprotein 1, Igm",
+    "unit": "SMU",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "2006 International Consensus statement on Classification of definite APS Note: APS is diagnosed if at least one laboratory criterion and one clinical criterion are met. For the laboratory criteria, they need to be observed on two or more separate occasions, with each test done at least 12 weeks apart. Comments This test checks for IgG antibodies to Beta-2 glycoprotein. Finding these antibodies can indicate a risk of blood clots in arteries and veins, as well as a higher chance of repeated miscarriages. The new International classification criteria for APS include Beta-2 glycoprotein for 2 key reasons namely: 1. Beta-2 Glycoprotein antibodies maybe the only antibody present in 10% patients of Antiphospholipid syndrome (APS) 2. Beta-2 Glycoprotein antibodies are highly specific for APS unlike Anticardiolipin antibodies which may be positive in certain infectious diseases Indications · Clinical history suggestive of Arterial or venous thrombosis · History of Recurrent fetal loss /Intrauterine growth restriction/ Premature birth ~~~ End of report ~~~"
+ },
+ {
+  "id": "beta_hcg",
+  "name": "Beta HCG",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "BETA_HUMAN_CHORIONIC",
+    "name": "Beta Human Chorionic",
+    "unit": "mIU/mL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological Basis: Human chorionic gonadotropin (hCG) is a glycoprotein made up of two subunits (α and β). Serum hCG can be detected as early as 24 hours after implantation at a concentration of 5 mIU/mL. During normal pregnancy, serum levels double every 2–3 days and are 50– 100 mIU/mL at the time of the first missed menstrual period. Peak levels are reached 60–80 days after the last menstrual period (LMP) (30,000–100,000 mIU/mL), and levels then decrease to a plateau of 5,000–10,000 mIU/mL at about 120 days after LMP and persist until delivery. Interpretation: Increased in: Pregnancy (including ectopic pregnancy), hyperemesis gravidarum, trophoblastic tumors (hydatidiform mole, choriocarcinoma), some germ cell tumors (teratomas, seminoma), ectopic hCG production by other malignancies. Decreasing Over time: Threatened abortion Comments: Test is positive (>50 mIU/mL) in most pregnant women at the time of or shortly after the first missed menstrual period. Quantitative hCG test detects hCG levels as low as 1.0 mIU/mL. It is preferred for the evaluation of suspected ectopic pregnancy and threatened abortion. In both situations, hCG levels fail to demonstrate the normal early pregna"
+ },
+ {
+  "id": "c_reactive_protein",
+  "name": "C-Reactive Protein (CRP) Quantitative",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "C_REACTIVE_PROTEIN_CRP",
+    "name": "C-Reactive Protein, CRP",
+    "unit": "mg/L",
+    "ref": "< 6",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Interpretation - Produced in the liver and migrates in Y region, where it can produce a small pseudo paraprotein. - A marker of systemic inflammation - High Sensitivity CRP (hs CRP) assay may indicate cardiovascular risk - Seasonal variations with highest levels in winter. Note: 1. CRP is an acute phase reactant which is used in inflammatory disorders for monitoring course and effect of therapy. 2. It is most useful as an indicator of activity in Rheumatoid arthritis, Rheumatic fever, tissue injury or necrosis and infections 3. As compared to ESR, CRP shows an earlier rise in inflammatory disorders which begins in 4-6 hrs, the intensity of the rise being higher than ESR and the recovery being earlier than ESR. 4. Unlike ESR, CRP levels are not influenced by hematologic conditions like Anemia, Polycythemia etc. ~~~ End of report ~~~"
+ },
+ {
+  "id": "chikungunya",
+  "name": "Chikungunya",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "CHIKUNGUNYA",
+    "name": "Chikungunya",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": null,
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   }
+  ],
+  "interpretation": "Note: 1. Positive results in serum indicate ongoing or recent infection by Chikungunya virus causing rash, fever, and severe joint pain (arthralgia). The test cannot be used to differentiate between primary and secondary infection. 2. Negative results are seen in the absence of Chikungunya virus infection. However, it does not rule out the disease. 3. False positive results may be seen due to cross-reactivity with other mosquito-borne diseases like Dengue and Zika Virus infections, in patients with high levels of heterophile antibodies and Rheumatoid factor. 4. False-negative results may be due to processing of samples collected early in the course of disease and immunosuppression. Use: To diagnose an acute stage of infection caused by Chikungunya virus. ~~~ End of report ~~~"
+ },
+ {
+  "id": "dengue_ns1_antigen",
+  "name": "Dengue NS1 Antigen",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "DENGUE_NS1_ANTIGEN",
+    "name": "Dengue NS1 Antigen",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": null,
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   }
+  ],
+  "interpretation": "Dengue virus, transmitted by Aedes mosquitoes, belongs to the Flavivirus genus and has four serotypes: DEN-1, DEN-2, DEN-3, and DEN-4. Immunity from one serotype is lifelong but does not protect against the others. Dengue infection ranges from mild fever to severe, potentially fatal hemorrhagic disease. The WHO classifies dengue infections as primary or secondary. Secondary infections with different serotypes carry a higher risk of complications such as Dengue Hemorrhagic Fever (DHF) and Dengue Shock Syndrome (DSS). Test Utility Dengue NS1 antigen can be detected in serum from day 1 to day 9 after symptoms begin. Dengue-specific IgM antibodies appear as early as 5 days after fever starts and usually last 30-90 days, though they can occasionally be detectable for up to 8 months. IgM is also present in secondary and tertiary dengue infections, but often at lower and more transient levels. Dengue IgG levels typically rise by the end of the first week of a primary infection and can persist for months or even a lifetime. In primary dengue, patients are usually IgM positive and IgG negative with high IgM levels. In secondary infections, patients are often positive for both IgG and IgM, w"
+ },
+ {
+  "id": "free_testosterone",
+  "name": "Free Testosterone",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "TESTOSTERONE_FREE",
+    "name": "Testosterone Free",
+    "unit": "pg/mL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Clinical Use 1. As a secondary test to investigate alterations in physiologically active testosterone levels. 2. To evaluate androgen status in cases with suspected or established abnormalities in sex hormone-binding globulin (SHBG). 3. To assess functional serum testosterone levels in early pubertal males and older adult men. 4. To measure functional circulating testosterone in females presenting with symptoms or signs of hyperandrogenism despite having normal total testosterone concentrations. Comments Testosterone circulates in the blood bound to three proteins: sex hormone-binding globulin (SHBG) (60-80%), albumin, and cortisol- binding globulin. Approximately 1-2% of circulating testosterone remains unbound or free. Measuring free testosterone provides an estimate of the biologically active hormone. This is particularly useful to account for variations in transport proteins that can affect total testosterone levels. Elevated SHBG levels, which can occur with conditions like obesity or advanced age, might obscure a true testosterone deficiency. In conditions such as Polycystic Ovary Syndrome (PCOS), where insulin resistance is prevalent and SHBG levels are often reduced, free o"
+ },
+ {
+  "id": "hbeag",
+  "name": "HBeAg",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "HBEAG",
+    "name": "Hbeag",
+    "unit": "index/mL",
+    "ref": "< 15",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological Basis HBeAg is a soluble protein secreted by HBV, related to HBcAg, indicating viral replication and infectivity. Two distinct serologic types of hepatitis B have been described, one with a positive HbeAg, and the other with a negative HBeAg and a positive anti-HBe antibody. Interpretation Increased (positive) in: HBV (acute, chronic) hepatitis. Comments The assumption has been that loss of HBeAg and accumulation of HBeAb are associated with decreased infectivity. Testing has proved unreliable, and tests are not routinely needed as indicators of infectivity. All patients positive for HBeAg must be considered infectious. ~~~ End of report ~~~"
+ },
+ {
+  "id": "hbsag",
+  "name": "HBsAg",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "HBSAG",
+    "name": "HBSAG",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": null,
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   }
+  ],
+  "interpretation": "Presence of Hepatitis B antigen indicates reactive result which monitors HBAg levels during the disease but cannot predict the stages of disease. Rapid card tests are screening tests, false positive and false negative results may occur due to various factors which may influence test results. Test Utility: HbsAg is the first serologic marker appearing in the serum 6-16 weeks following hepatitis B viral infection. In a typical HBV infection, HBsAg will be detected 2-4 weeks before the liver enzyme levels (ALT) become abnormal and 3-5 weeks before the patient develops jaundice. In acute cases, HbsAg usually disappears 1-2 months after the onset of symptoms. Persistence of HBsAg for more than 6 months indicates the development of either a chronic carrier state or chronic liver disease. The presence of HBsAg is frequently associated with infectivity. HbsAg when accompanied by Hepatitis Be antigen and/or hepatitis B viral DNA almost always indicates infectivity. ~~~ End of report ~~~"
+ },
+ {
+  "id": "hepatitis_c",
+  "name": "Hepatitis C",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "HEPATITIS_C_VIRUS_HCV",
+    "name": "Hepatitis C Virus, Hcv",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": null,
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   }
+  ],
+  "interpretation": "1. Reactive test result indicates the presence of Hepatitis C virus infection. Active infection to be confirmed by HCV RNA PCR test. It cannot differentiate between the stages of Hepatitis C viral infection nor used to monitor the efficacy of treatment. 2. Non-Reactive test result indicates Hepatitis C virus infection is unlikely. 3. False positive results may be observed in patients receiving mouse monoclonal antibodies, on heparin therapy, on biotin supplements for diagnosis or therapy or presence of heterophilic antibodies in serum. 4. False negative reaction may be due to processing of sample collected early in the course of disease, Prozone phenomenon, Immunosuppression & Immuno-incompetence. Uses I. To diagnose suspected HCV infection in the risk group. II. Prenatal Screening of pregnant women and pre-surgical/interventional procedures work up. ~~~ End of report ~~~"
+ },
+ {
+  "id": "hiv_card",
+  "name": "HIV (Card Test)",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "HIV_1",
+    "name": "HIV - 1",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": null,
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   },
+   {
+    "code": "HIV_2",
+    "name": "HIV - 2",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": null,
+    "options": [
+     "NEGATIVE",
+     "POSITIVE"
+    ]
+   }
+  ],
+  "interpretation": "Rapid card tests are screening tests, false positive and false negative results may occur due to various factors which may influence test results. Advise: Kindly confirm by ELISA or Western blot method. 1. A negative result implies that no Anti HIV – 1 & HIV - 2 antibodies have been detected in the sample by this method. This means that either the patient has not been exposed to HIV-1 or HIV-2 infection or the sample has been tested during the “WINDOW PHASE” (before the development of detectable levels of antibodies). 2. A positive result suggests the possibilities of HIV-I and/or HIV-II infection. However, these results must be verified by a confirmatory test (IFA / WESTERN BLOT I-II) before pronouncing the patient positive for HIV-1 and/or HIV-2 infection. ALL reactive samples should be confirmed by using HIV Western Blot/PCR. ~~~ End of report ~~~"
+ },
+ {
+  "id": "insulin_random",
+  "name": "Insulin Random",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "INSULIN_RANDOM",
+    "name": "Insulin Random",
+    "unit": "µU/mL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Note 1. A single random blood sample for insulin may not be sufficient because insulin levels and blood glucose can vary widely over time. 2. Insulin secretion can be stimulated by various factors, including high blood glucose, glucagon, amino acids, growth hormone, and catecholamines. 3. Insulin assay results can be affected by insulin antibodies that develop in patients receiving bovine or porcine insulin treatments. Clinical Utility · Evaluation of fasting hypoglycemia · Evaluation of Polycystic Ovary syndrome · Classification of Diabetes mellitus · Predict Diabetes mellitus · Assessment of Beta cell activity · Select optimal therapy for Diabetes · Investigation of insulin resistance · Predict the development of Coronary Artery Disease Interpretation Increased levels - Insulinoma, Some Type II diabetic patients, Infantile hypoglycemia, Hyperinsulinism, Obesity, Cushing's syndrome, Oral contraceptives, Acromegaly, Hyperthyroidism Decreased levels - Untreated Type I Diabetes mellitus ~~~ End of report ~~~"
+ },
+ {
+  "id": "malaria_antigen",
+  "name": "Malaria Antigen",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "IGG",
+    "name": "Igg",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   },
+   {
+    "code": "IGM",
+    "name": "Igm",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   }
+  ],
+  "interpretation": "Malaria antigen detection-whole blood Four species of the plasmodium parasites are responsible for human malaria infections: P. falciparum, P. vivax, P. ovale and P. malariae. Early detection and differentiation of malaria is of paramount importance due to incidence of cerebral malaria and drug resistance associated with P. falciparum malaria causing most of the morbidity and mortality worldwide. Test Utility The current test is a qualitative test for detection of the P. falciparum specific histidine rich protein-2 (Pf. HRP-2) and P. vivax specific lactate dehydrogenase (pLDH) in whole blood samples. The assay is able to detect and distinguish P. vivax and P. falciparum infections and also identify mixed infections. Notes & Limitations The test detects P. falciparum specific HRP-2 and P. vivax specific LDH, a negative test result does not rule out infection with P. ovale and P. malariae. Constant exposure to the malarial parasites, as seen in areas of high endemicity, may result in positive results with doubtful clinical significance. Hence, the results must always be correlated with clinical history and relevant epidemiological and therapeutic context. ~~~ End of report ~~~"
+ },
+ {
+  "id": "myoglobin",
+  "name": "Myoglobin",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "MYOGLOBIN",
+    "name": "Myoglobin",
+    "unit": "ng/mL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Comments Myoglobin is a protein found in heart and skeletal muscle. It leaks into the blood when muscle cells are damaged. It’s useful for detecting heart attacks, early re-infarctions, and successful treatment. Myoglobin levels rise about 2 hours after a heart attack, peak in 4-12 hours, and return to normal within 24 hours. Since myoglobin is cleared by the kidneys, any changes in kidney function can affect its levels. Clinical Use To rule out a heart attack, if myoglobin levels don’t change in several samples taken 2-6 hours after chest pain starts, it almost certainly means there’s no heart muscle damage. ~~~ End of report ~~~"
+ },
+ {
+  "id": "occult_blood",
+  "name": "Occult Blood",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "OCCULT_BLOOD_STOOL",
+    "name": "Occult Blood, Stool",
+    "unit": "",
+    "ref": "Absent",
+    "type": "text",
+    "group": null,
+    "options": null
+   }
+  ],
+  "interpretation": "Positive in: 1. Upper GI disease (peptic ulcer, gastritis, variceal bleeding, esophageal and gastric cancer) 2. Lower GI disease (diverticulosis, colonic polyps, colorectal cancer, inflammatory bowel disease, vascular ectasias, hemorrhoids). Comments Although fecal occult blood testing is an accepted screening test for colorectal cancer, the sensitivity and specificity of an individual test are low. The usefulness of fecal occult blood testing after digital rectal examination is low. Quantitative fecal immunochemical test (FIT) is superior to gFOBT because there are no dietary and drug restrictions and it is more amenable to standardization and quality control. Note To avoid false negatives, patients should avoid taking vitamin C. ~~~ End of report ~~~"
+ },
+ {
+  "id": "progesterone",
+  "name": "Progesterone",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "PROGESTERONE",
+    "name": "Progesterone",
+    "unit": "ng/mL",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Menstrual Cycle Phase: 1. Follicular Phase (Early): Serum progesterone levels are typically low (<1 ng/mL), as progesterone is produced in significant amounts only after ovulation. 2. Luteal Phase (Mid to Late): Progesterone levels rise significantly, usually ranging from 5 to 20 ng/mL. This increase is due to the secretion of progesterone by the corpus luteum, which supports the uterine lining for potential implantation. 3. Postmenopausal Women: Progesterone levels are generally low (<1 ng/mL) due to the cessation of ovarian function. Pregnancy: First Trimester: Progesterone levels increase substantially, often ranging from 11 to 44 ng/mL, to support the early stages of pregnancy and maintain the uterine lining. Second and Third Trimester: Progesterone levels continue to rise, often exceeding 100 ng/mL, to sustain pregnancy and prepare the body for labor. Ovulation Assessment: Ovulation Detection: Progesterone levels are assessed around day 21 of a 28-day cycle. A level above 5 ng/mL typically indicates that ovulation has occurred. Hormonal Imbalances: Low Progesterone Levels: May indicate conditions such as luteal phase defect, where the corpus luteum fails to produce adequate pr"
+ },
+ {
+  "id": "rheumatoid_factor",
+  "name": "Rheumatoid Factor (RA) Quantitative",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "RHEUMATOID_FACTOR_RA",
+    "name": "Rheumatoid Factor, Ra",
+    "unit": "IU/mL",
+    "ref": "0 - 20",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Rheumatoid factor (RF) consists of heterogeneous autoantibodies usually of the IgM class that react against the Fc region of human IgG. Most methods detect only IgM-class RF. Interpretation Positive in: Rheumatoid arthritis (75–90%), Sjögren syndrome (80–90%), scleroderma, dermatomyositis, SLE (30%), sarcoidosis, Waldenström macroglobulinemia, chronic infection. Drugs: methyldopa, others. Low-titers of RF (eg, ≤1:80) are questionable and can be found in healthy older patients (20%), in 1–4% of normal individuals, and in a variety of acute immune responses (eg, viral infections, including infectious mononucleosis and viral hepatitis), chronic bacterial infections (tuberculosis, leprosy, subacute infective endocarditis), and chronic active hepatitis. Comments Rheumatoid factor can be useful in differentiating rheumatoid arthritis from other chronic inflammatory arthritides. However, a positive RF test is only one of several criteria needed to make the diagnosis of rheumatoid arthritis. RF must be ordered selectively because its predictive value is low (34%) if it is used as a screening test. The test has poor positive predictive value because of its lack of specif"
+ },
+ {
+  "id": "rubella",
+  "name": "Rubella",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "IGG",
+    "name": "Igg",
+    "unit": "U/mL",
+    "ref": "< 8.00",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "IGM",
+    "name": "Igm",
+    "unit": "U/mL",
+    "ref": "< 8.00",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiologic Basis Rubella (German measles) is a viral infection that causes fever, malaise, coryza, lymphadenopathy, fine maculopapular rash, and congenital birth defects when infection occurs in utero. Antibodies to rubella can be detected by hemagglutination inhibition, complement fixation, indirect hemagglutination, enzyme-linked immunosorbent assay (ELISA), or latex agglutination. Tests can detect IgG and IgM antibodies. Titers usually appear as rash fades(1 week) and peak at 10–14 days for hemagglutination inhibition and 2–3 weeks for other techniques. Baseline titers may remain elevated for life. Serologic tests are used to determine the immune status of the individual, to diagnose postnatal rubella, and occasionally to support the diagnosis of rubella. IgM antibody disappears within 4–5 weeks; IgG antibody remains for life. Interpretation Increased in: Recent rubella infection, congenital rubella infection, previous rubella infection, or vaccination (immunity). Spuriously increased IgM antibody occurs in the presence of rheumatoid factor or cross - reacting antibodies to other viral infections or autoimmune illnesses. Comments Rubella titers of ≤1:8 indicate susceptibility a"
+ },
+ {
+  "id": "total_psa",
+  "name": "Total PSA",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "TOTAL_PSA",
+    "name": "Total PSA",
+    "unit": "ng/mL",
+    "ref": "< 4",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis PSA is a glycoprotein produced by cells of the prostatic ductal epithelium and is present in the serum of all men. It is absent from the serum of women. Interpretation Increased in: Prostate carcinoma (sensitivity ~20%; specificity ~60–70% at a 4.0 ng/mL cutoff), biochemical recurrence after localized treatment, benign prostatic hypertrophy (BPH), prostatitis. Decreased in: Metastatic prostate carcinoma treated with antiandrogen therapy, postprostatectomy, 5α-reductase inhibitor therapy. Comments PSA is used both for the early detection of prostate cancer and as a tumor marker to assess response and monitor recurrence of treated prostate cancer. There is still no consensus on whether PSA measurement should be used as a screening test for early detection of prostate cancer. A decrease in mortality rates resulting from use for cancer screening is unproven, and the risks of early therapy are significant. As a result, the United States Preventive Services Task Force discourages use of the test for healthy men in all age groups. The PSA nadir (the lowest PSA level achieved after therapeutic intervention) appears to correlate with the likelihood of remaining disease f"
+ },
+ {
+  "id": "total_testosterone",
+  "name": "Total Testosterone",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "TESTOSTERONE_TOTAL",
+    "name": "Testosterone Total",
+    "unit": "ng/dl",
+    "ref": "",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "Physiological basis Testosterone is the principal male sex hormone, produced by the Leydig cells of the testes. Dehydroepiandrosterone (DHEA) is produced in the adrenal cortex, testes, and ovaries and is the main precursor for serum testosterone in women. In normal males after puberty, the testosterone level is twice as high as all androgens in females. In serum, it is largely bound to albumin (38%) and to a specific steroid hormone-binding globulin (SHBG) (60%), but it is the free hormone (2%) that is physiologically active. The total testosterone level measures both bound and free testosterone in the serum (by immunoassay). Free or bioavailable testosterone may be calculated or measured. Interpretation Increased in: Idiopathic sexual precocity (in boys, levels may be in adult range), adrenal hyperplasia (boys), adrenocortical tumors, trophoblastic disease during pregnancy, idiopathic hirsutism, virilizing ovarian tumors, arrhenoblastoma, virilizing luteoma, testicular feminization (normal or moderately elevated), cirrhosis (through increased SHBG), hyperthyroidism. Drugs: anticonvulsants, barbiturates, estrogens, oral contraceptives (through increased SHBG). Decreased in: Hypogon"
+ },
+ {
+  "id": "vdrl",
+  "name": "VDRL",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "VDRL",
+    "name": "VDRL",
+    "unit": "",
+    "ref": "",
+    "type": "option",
+    "group": null,
+    "options": [
+     "NON REACTIVE",
+     "REACTIVE"
+    ]
+   }
+  ],
+  "interpretation": "Note: 1. Titers of ≥1: 8 and rising titres are significant. 2. Positive result indicates ongoing or recent infection and the diagnosis should be confirmed by specific Treponemal tests such as TPHA & FTA- AbS. 3. The reactivity will vary with the Primary (60-86%), Secondary (99%) and Tertiary (98%) stage of Syphilis. 4. False positive results may be observed in patients of Malaria, Hepatitis, Mumps, Leprosy, Infectious Mononucleosis, Rheumatoid Arthritis and Collagen disease. 5. False negative reaction may be due to processing of sample collected early in the course of disease, immunosuppression and due to prozone effect. Uses : - To screen for presence and monitor the progression of Syphilis infection. - To assess the response to therapy (decreasing titres) in patients being treated for Syphilis. ~~~ End of report ~~~"
+ },
+ {
+  "id": "widal_slide",
+  "name": "Widal Test (Slide Method)",
+  "department": "Serology & Immunology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "SALMONELLA_TYPHI_O",
+    "name": "Salmonella Typhi 'O'",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   },
+   {
+    "code": "SALMONELLA_TYPHI_H",
+    "name": "Salmonella Typhi 'H'",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   },
+   {
+    "code": "SALMONELLA_TYPHI_AH",
+    "name": "Salmonella Typhi 'Ah'",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   },
+   {
+    "code": "SALMONELLA_TYPHI_BH",
+    "name": "Salmonella Typhi 'Bh'",
+    "unit": "",
+    "ref": "",
+    "type": "text",
+    "group": null
+   }
+  ],
+  "interpretation": "Note: 1. Titres ≥1:80 of “O” antigen & ≥1:160 of “H” antigen for Salmonella typhi and titres ≥1:80 of “H” antigen for Salmonella paratyphi A & B are significant. 2. Reactive results indicate ongoing or recent infection by Salmonella species and it will vary with stage of the disease with appearance in 1st week to increase in titres till end of 4th week post which it starts decreasing. 3. False positive - Past enteric infection during unrelated fevers like Malaria, Influenzae etc. in the form of transient rise in H antibody in Widal test. 4. False negative - Sample collected early in the course of disease (1st week) and immunosuppression. Uses of widal test 1. To diagnose infection due to Salmonella species (Enteric fever). 2. To monitor the progression of disease. 3. To assess the response to therapy (decreasing titres) in patients being treated for Enteric fever. ~~~ End of report ~~~"
+ },
+ {
+  "id": "dlc",
+  "name": "Differential Leucocyte Count (DLC)",
+  "department": "Haematology",
+  "kind": "test",
+  "parameters": [
+   {
+    "code": "NEUT",
+    "name": "Neutrophils",
+    "unit": "%",
+    "ref": "40 - 80",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "LYMPH",
+    "name": "Lymphocyte",
+    "unit": "%",
+    "ref": "20 - 40",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "EOS",
+    "name": "Eosinophils",
+    "unit": "%",
+    "ref": "1 - 6",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "MONO",
+    "name": "Monocytes",
+    "unit": "%",
+    "ref": "2 - 10",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "BASO",
+    "name": "Basophils",
+    "unit": "%",
+    "ref": "< 2",
+    "type": "number",
+    "group": null
+   }
+  ],
+  "interpretation": "leukemia (rare). hypersplenism, sepsis, viral marrow suppression, bone marrow failure syndromes. Viral infection (especially infectious mononucleosis, pertussis), Immune deficiency syndromes (eg, HIV), Lymphocytes thyrotoxicosis, adrenal insufficiency, lymphoid leukemia/lymphoma, idiopathic drugs. chronic infection, drug and allergic reactions, autoimmune diseases Monocytes Allergic states, asthma, drug sensitivity reactions, skin disorders, parasitic and certain fungal infections, Churg- Strauss syndrome, polyarteritis nodosa, response to malignancy (eg, Hodgkin disease, T- Depleted in overwhelming bacterial infection, hairy c"
+ },
+ {
+  "id": "cbc_abs",
+  "name": "CBC (with absolute counts)",
+  "department": "Haematology",
+  "kind": "panel",
+  "interpretation": "A complete blood count (CBC) is used to evaluate overall health and detect a wide range of disorders, including anaemia, infection and leukaemia. WBC and platelet counts may be lower in venous than in capillary samples while still lying within reference ranges.",
+  "parameters": [
+   {
+    "code": "HB",
+    "name": "Hemoglobin",
+    "unit": "g/dl",
+    "ref": "13 - 17",
+    "type": "number",
+    "group": null,
+    "ranges": [
+     {
+      "sex": "M",
+      "text": "13 - 17"
+     },
+     {
+      "sex": "F",
+      "text": "12 - 15"
+     },
+     {
+      "sex": "any",
+      "text": "13 - 17"
+     }
+    ]
+   },
+   {
+    "code": "TLC",
+    "name": "Total Leukocyte Count",
+    "unit": "cumm",
+    "ref": "4,800 - 10,800",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "NEUT",
+    "name": "Neutrophils",
+    "unit": "%",
+    "ref": "40 - 80",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "LYMPH",
+    "name": "Lymphocyte",
+    "unit": "%",
+    "ref": "20 - 40",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "EOS",
+    "name": "Eosinophils",
+    "unit": "%",
+    "ref": "1 - 6",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "MONO",
+    "name": "Monocytes",
+    "unit": "%",
+    "ref": "2 - 10",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "BASO",
+    "name": "Basophils",
+    "unit": "%",
+    "ref": "< 2",
+    "type": "number",
+    "group": "Differential Leucocyte Count"
+   },
+   {
+    "code": "PLT",
+    "name": "Platelet Count",
+    "unit": "lakhs/cumm",
+    "ref": "1.5 - 4.1",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "RBC",
+    "name": "Total RBC Count",
+    "unit": "million/cumm",
+    "ref": "4.5 - 5.5",
+    "type": "number",
+    "group": null,
+    "ranges": [
+     {
+      "sex": "M",
+      "text": "4.5 - 5.5"
+     },
+     {
+      "sex": "F",
+      "text": "3.8 - 4.8"
+     },
+     {
+      "sex": "any",
+      "text": "4.5 - 5.5"
+     }
+    ]
+   },
+   {
+    "code": "HCT",
+    "name": "Hematocrit Value, HCT",
+    "unit": "%",
+    "ref": "40 - 50",
+    "type": "number",
+    "group": null,
+    "ranges": [
+     {
+      "sex": "M",
+      "text": "40 - 50"
+     },
+     {
+      "sex": "F",
+      "text": "36 - 46"
+     },
+     {
+      "sex": "any",
+      "text": "40 - 50"
+     }
+    ]
+   },
+   {
+    "code": "MCV",
+    "name": "Mean Corpuscular Volume, MCV",
+    "unit": "fL",
+    "ref": "83 - 101",
+    "type": "number",
+    "group": null,
+    "decimals": 1,
+    "derived": true
+   },
+   {
+    "code": "MCH",
+    "name": "Mean Cell Haemoglobin, MCH",
+    "unit": "pg",
+    "ref": "27 - 32",
+    "type": "number",
+    "group": null,
+    "decimals": 1,
+    "derived": true
+   },
+   {
+    "code": "MCHC",
+    "name": "Mean Cell Haemoglobin Con, MCHC",
+    "unit": "%",
+    "ref": "31.5 - 34.5",
+    "type": "number",
+    "group": null,
+    "decimals": 1,
+    "derived": true
+   },
+   {
+    "code": "ABS_NEUT",
+    "name": "Absolute Neutrophil Count",
+    "unit": "/cumm",
+    "ref": "2000 - 7000",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   },
+   {
+    "code": "ABS_LYMPH",
+    "name": "Absolute Lymphocyte Count",
+    "unit": "/cumm",
+    "ref": "1000 - 3000",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   },
+   {
+    "code": "ABS_EOS",
+    "name": "Absolute Eosinophil Count",
+    "unit": "/cumm",
+    "ref": "20 - 500",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   },
+   {
+    "code": "ABS_MONO",
+    "name": "Absolute Monocyte Count",
+    "unit": "/cumm",
+    "ref": "200 - 1000",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   },
+   {
+    "code": "ABS_BASO",
+    "name": "Absolute Basophil Count",
+    "unit": "/cumm",
+    "ref": "0 - 100",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   }
+  ]
+ },
+ {
+  "id": "dlc_abs",
+  "name": "Differential Leucocyte Count (Absolute)",
+  "department": "Haematology",
+  "kind": "test",
+  "interpretation": "",
+  "parameters": [
+   {
+    "code": "TLC",
+    "name": "Total Leukocyte Count",
+    "unit": "cumm",
+    "ref": "4,800 - 10,800",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "NEUT",
+    "name": "Neutrophils",
+    "unit": "%",
+    "ref": "40 - 80",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "LYMPH",
+    "name": "Lymphocyte",
+    "unit": "%",
+    "ref": "20 - 40",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "EOS",
+    "name": "Eosinophils",
+    "unit": "%",
+    "ref": "1 - 6",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "MONO",
+    "name": "Monocytes",
+    "unit": "%",
+    "ref": "2 - 10",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "BASO",
+    "name": "Basophils",
+    "unit": "%",
+    "ref": "< 2",
+    "type": "number",
+    "group": null
+   },
+   {
+    "code": "ABS_NEUT",
+    "name": "Absolute Neutrophil Count",
+    "unit": "/cumm",
+    "ref": "2000 - 7000",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   },
+   {
+    "code": "ABS_LYMPH",
+    "name": "Absolute Lymphocyte Count",
+    "unit": "/cumm",
+    "ref": "1000 - 3000",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   },
+   {
+    "code": "ABS_EOS",
+    "name": "Absolute Eosinophil Count",
+    "unit": "/cumm",
+    "ref": "20 - 500",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   },
+   {
+    "code": "ABS_MONO",
+    "name": "Absolute Monocyte Count",
+    "unit": "/cumm",
+    "ref": "200 - 1000",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   },
+   {
+    "code": "ABS_BASO",
+    "name": "Absolute Basophil Count",
+    "unit": "/cumm",
+    "ref": "0 - 100",
+    "type": "number",
+    "group": "Absolute Counts",
+    "decimals": 0,
+    "derived": true
+   }
+  ]
+ }
+]

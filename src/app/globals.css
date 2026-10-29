@@ -1,0 +1,3 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html, body { background: #f8fafc; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
