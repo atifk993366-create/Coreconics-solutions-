@@ -16,8 +16,6 @@ export function numv(v: unknown, field: string, { min = 0, max = 1e9, required =
 }
 export function requireRole(ctx: ApiCtx, ...roles: ApiCtx["role"][]) { if (!roles.includes(ctx.role)) throw new ApiError(403, "Not allowed for this credential", "forbidden"); }
 export const inRange = (d: string, from?: string, to?: string) => (!from || d >= from) && (!to || d <= to);
-<<<<<<< HEAD
-=======
 
 import { getRepo } from "../repo";
 import type { Op } from "../repo/types";
@@ -32,4 +30,3 @@ export async function byDateRange<T extends { date?: string }>(col: string, tid:
   if (from && to) { const days = daysBetween(from, to); if (days.length && days.length <= 120) { const out: T[] = []; for (let i = 0; i < days.length; i += 15) out.push(...(await Promise.all(days.slice(i, i + 15).map(d => repo.query<T>(col, { where: [["tenantId", "==", tid], ["date", "==", d], ...extra] })))).flat()); return out; } }
   const rows = await repo.query<T>(col, { where: [["tenantId", "==", tid], ...extra] }); return rows.filter(r => inRange(r.date ?? "", from, to));
 }
->>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
