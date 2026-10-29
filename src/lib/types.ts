@@ -70,11 +70,7 @@ export interface Bill {
   date: string; caseTypes: string[]; items: BillItem[];
   subtotal: number; discountType: "percent" | "flat"; discountValue: number; discountAmount: number;
   total: number; paid: number; balance: number; payments: Payment[];
-<<<<<<< HEAD
-  cancelled: boolean; createdAt: string; createdBy?: string; externalRef?: string; remarks?: string;
-=======
   cancelled: boolean; due?: boolean; createdAt: string; createdBy?: string; externalRef?: string; remarks?: string;
->>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
 }
 
 export type ReportStatus = "new" | "in_progress" | "final" | "signed";
@@ -84,11 +80,7 @@ export interface ResultCell {
   ruleId?: string; ruleVersion?: number; formula?: string; refText?: string; unit?: string;
 }
 export interface Report {
-<<<<<<< HEAD
-  id: string; tenantId: string; billId: string; regNo: number; testId: string; testName: string; department: string;
-=======
   id: string; tenantId: string; billId: string; regNo: number; date?: string; testId: string; testName: string; department: string;
->>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
   patient: PatientSnap; referrerName: string; results: Record<string, ResultCell>;
   status: ReportStatus; notes?: string; interpretation?: string;
   collectedAt?: string; receivedAt?: string; reportedAt?: string; createdAt: string; updatedAt: string;
@@ -111,7 +103,4 @@ export interface Referrer { id: string; tenantId: string; name: string; contact?
 export interface Agent { id: string; tenantId: string; name: string; active: boolean; createdAt: string }
 export interface Expense { id: string; tenantId: string; date: string; name: string; amount: number; category: string; mode: string; notes?: string; createdAt: string }
 export interface TestOverride { id: string; tenantId: string; testId: string; name?: string; interpretation?: string; active?: boolean; parameters?: Record<string, Partial<import("./types").ParamDef>> }
-<<<<<<< HEAD
-=======
 export interface PaymentDoc { id: string; tenantId: string; billId: string; regNo: number; patient: string; referredBy: string; centre: string; amount: number; mode: string; date: string; at: string; by?: string; cancelled?: boolean }
->>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
