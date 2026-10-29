@@ -1,5 +1,6 @@
 "use client";
 import { useCallback, useEffect, useState } from "react"; import { onAuthStateChanged, signOut, type User } from "firebase/auth";
+<<<<<<< HEAD
 import { fbAuth } from "@/lib/client/firebase"; import { Badge, Btn, Card, ErrorBox, Loading, Toast, useToast, cx } from "@/components/ui"; import { Logo } from "@/components/Brand";
 const TONE: any = { pending: "amber", approved: "green", rejected: "red", suspended: "red" };
 export default function AdminPage() {
@@ -11,6 +12,26 @@ export default function AdminPage() {
   async function act(id: string, a: string) { const note = a === "reject" || a === "suspend" ? prompt("Reason (optional)") ?? undefined : undefined; try { await call("POST", `/admin/labs/${id}/${a}`, { note }); t.show("Done ✓"); load(); } catch (e: any) { t.show(e.message); } }
   return (<main className="mx-auto max-w-4xl p-4"><div className="mb-4 flex items-center justify-between"><Logo /><div className="flex items-center gap-3 text-sm text-slate-500">{user?.email}<button onClick={() => signOut(fbAuth())}>Sign out</button></div></div><h1 className="mb-3 text-xl font-semibold">Registration approvals</h1>
     <div className="mb-3 flex gap-2">{["pending", "approved", "rejected", "suspended"].map(s => <button key={s} onClick={() => setStatus(s)} className={cx("rounded-full border px-3 py-1 text-xs capitalize", status === s ? "border-brand-500 bg-brand-50 text-brand-700" : "border-slate-300")}>{s}</button>)}</div><ErrorBox msg={err} />
+=======
+import { fbAuth } from "@/lib/client/firebase"; import { Badge, Btn, Card, Loading, Toast, useToast, cx } from "@/components/ui"; import { Logo } from "@/components/Brand";
+const TONE: any = { pending: "amber", approved: "green", rejected: "red", suspended: "red" };
+export default function AdminPage() {
+  const [user, setUser] = useState<User | null>(null); const [me, setMe] = useState<any>(null); const [rows, setRows] = useState<any[] | null>(null); const [status, setStatus] = useState("pending"); const [err, setErr] = useState(""); const t = useToast();
+  useEffect(() => onAuthStateChanged(fbAuth(), u => (u ? setUser(u) : (location.href = "/login"))), []);
+  const call = useCallback(async (method: string, path: string, body?: any) => { const r = await fetch(`/api/v1${path}`, { method, headers: { Authorization: `Bearer ${await user!.getIdToken(true)}`, ...(body ? { "Content-Type": "application/json" } : {}) }, body: body ? JSON.stringify(body) : undefined }); const j = await r.json(); if (!r.ok) throw new Error(j.error?.message ?? "Failed"); return j.data; }, [user]);
+  useEffect(() => { if (user) call("GET", "/me").then(setMe).catch(e => setErr(e.message)); }, [user, call]);
+  const load = useCallback(() => { if (!user || !me?.isAdmin) return; setRows(null); setErr(""); call("GET", `/admin/labs?status=${status}`).then(setRows).catch(e => { setErr(e.message); setRows([]); }); }, [user, me, status, call]);
+  useEffect(() => { load(); }, [load]);
+  async function act(id: string, a: string) { const note = a === "reject" || a === "suspend" ? prompt("Reason (optional)") ?? undefined : undefined; try { await call("POST", `/admin/labs/${id}/${a}`, { note }); t.show("Done ✓"); load(); } catch (e: any) { t.show(e.message); } }
+  const header = <div className="mb-4 flex items-center justify-between"><Logo /><div className="flex items-center gap-3 text-sm text-slate-500"><a href="/app" className="text-brand-600">App</a>{user?.email}<button onClick={() => signOut(fbAuth()).then(() => (location.href = "/login"))}>Sign out</button></div></div>;
+  if (!user || !me) return <main className="mx-auto max-w-4xl p-4">{header}{err ? <Card><p className="text-sm text-red-600">{err}</p></Card> : <Loading />}</main>;
+  if (!me.isAdmin) return (<main className="mx-auto max-w-2xl p-4">{header}<Card><h1 className="text-lg font-semibold text-red-600">Admin access nahi mila</h1><p className="mt-2 text-sm text-slate-600">Aap <b>{me.email}</b> se login hain.</p><ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-700">
+    <li>Email verified: <b>{me.emailVerified ? "Haan ✓" : "Nahi ✗ — inbox me verification link kholiye, phir Sign out → Sign in"}</b></li>
+    <li>Vercel me <code>PLATFORM_ADMIN_EMAILS</code> set hai: <b>{me.adminListConfigured ? "Haan ✓" : "Nahi ✗ — Vercel → Settings → Environment Variables me add karke Redeploy kijiye"}</b></li>
+    <li>Ye email us list me hai: <b>{me.emailInAdminList ? "Haan ✓" : "Nahi ✗ — list me ye email (<code>" + me.email + "</code>) jodiye, spelling check kijiye"}</b></li></ul></Card></main>);
+  return (<main className="mx-auto max-w-4xl p-4">{header}<h1 className="mb-3 text-xl font-semibold">Registration approvals</h1>
+    <div className="mb-3 flex gap-2">{["pending", "approved", "rejected", "suspended"].map(s => <button key={s} onClick={() => setStatus(s)} className={cx("rounded-full border px-3 py-1 text-xs capitalize", status === s ? "border-brand-500 bg-brand-50 text-brand-700" : "border-slate-300")}>{s}</button>)}</div>{err && <p className="mb-3 rounded-lg bg-red-50 p-3 text-sm text-red-700">{err}</p>}
+>>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
     {!rows ? <Loading /> : !rows.length ? <Card><p className="py-8 text-center text-sm text-slate-400">Koi {status} registration nahi.</p></Card> : <div className="space-y-3">{rows.map(r => <Card key={r.id}><div className="flex flex-wrap items-start justify-between gap-3"><div><div className="font-semibold">{r.name} <Badge tone={TONE[r.approval]}>{r.approval}</Badge></div><div className="mt-1 text-sm text-slate-600">{r.ownerEmail} {r.emailVerified ? <Badge tone="green">email verified</Badge> : <Badge tone="amber">not verified</Badge>}</div><div className="mt-1 text-xs text-slate-500">{[r.registration?.ownerName, r.registration?.phone, r.registration?.city, r.registration?.licenseNo && `Lic: ${r.registration.licenseNo}`].filter(Boolean).join(" · ")}</div><div className="mt-1 text-xs text-slate-400">Registered {r.createdAt.slice(0, 10)}{r.note ? ` · Note: ${r.note}` : ""}</div></div>
       <div className="flex gap-2">{r.approval !== "approved" && <Btn onClick={() => act(r.id, "approve")}>Approve</Btn>}{r.approval === "pending" && <Btn variant="danger" onClick={() => act(r.id, "reject")}>Reject</Btn>}{r.approval === "approved" && <Btn variant="ghost" onClick={() => act(r.id, "suspend")}>Suspend</Btn>}</div></div></Card>)}</div>}<Toast msg={t.msg} /></main>);
 }

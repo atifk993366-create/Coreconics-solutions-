@@ -12,7 +12,11 @@ export function Dashboard({ go }: { go: (v: string) => void }) {
       <Card><h3 className="mb-2 font-semibold">Recent transactions · today</h3>{data.recentTransactions.length ? data.recentTransactions.map((t: any, i: number) => <div key={i} className="flex justify-between border-b py-2 text-sm last:border-0"><span>#{t.regNo} {t.patient} <Badge>{t.mode}</Badge></span><b>{inr(t.amount)}</b></div>) : <p className="py-6 text-center text-sm text-slate-400">No transactions found for today.</p>}</Card></div></div>);
 }
 export function Business({ tab }: { tab: string }) {
+<<<<<<< HEAD
   const [date, setDate] = useState(today()); const [from, setFrom] = useState(today()); const [to, setTo] = useState(today());
+=======
+  const [date, setDate] = useState(today()); const [from, setFrom] = useState(tab === "due" ? new Date(Date.now() - 30 * 864e5).toLocaleDateString("en-CA", { timeZone: "Asia/Kolkata" }) : today()); const [to, setTo] = useState(today());
+>>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
   const range = <div className="grid grid-cols-2 gap-3"><Field label="From"><Input type="date" value={from} onChange={e => setFrom(e.target.value)} /></Field><Field label="To"><Input type="date" value={to} onChange={e => setTo(e.target.value)} /></Field></div>;
   if (tab === "daily") return <Daily date={date} setDate={setDate} />;
   if (tab === "expenses") return <Expenses from={from} to={to} range={range} />;

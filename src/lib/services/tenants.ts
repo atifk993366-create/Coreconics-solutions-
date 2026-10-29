@@ -2,6 +2,10 @@ import { getRepo } from "../repo";
 import { ApiError, type ApiCtx, type Tenant, type Branding } from "../types";
 import { need, nowIso, requireRole, str } from "./util";
 import { newApiKey, newId, sha256 } from "../util/crypto";
+<<<<<<< HEAD
+=======
+import { tenantStatus } from "./admin";
+>>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
 
 export interface ApiKeyDoc { id: string; tenantId: string; name: string; last4: string; scopes: string[]; createdAt: string; revoked: boolean; lastUsedAt?: string }
 export async function getTenant(id: string): Promise<Tenant> { return need(await getRepo().get<Tenant>("tenants", id), "Tenant"); }
@@ -27,7 +31,11 @@ export async function updateBranding(ctx: ApiCtx, b: Partial<Branding> & { allow
 }
 export async function resolveApiKey(secret: string): Promise<{ tenantId: string; scopes: string[] } | null> {
   const h = sha256(secret); const k = await getRepo().get<ApiKeyDoc>("apiKeys", h); if (!k || k.revoked) return null;
+<<<<<<< HEAD
   const t = await getRepo().get<Tenant>("tenants", k.tenantId); if (!t || !t.active) return null; return { tenantId: k.tenantId, scopes: k.scopes };
+=======
+  const t = await getRepo().get<Tenant>("tenants", k.tenantId); if (!t || tenantStatus(t) !== "approved") return null; return { tenantId: k.tenantId, scopes: k.scopes };
+>>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
 }
 // ── employee logins (Manage → Employee login) ──
 export async function inviteStaff(ctx: ApiCtx, email: string) {

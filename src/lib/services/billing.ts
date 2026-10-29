@@ -1,7 +1,13 @@
 import { getRepo } from "../repo";
+<<<<<<< HEAD
 import { ApiError, type ApiCtx, type Bill, type BillItem, type Patient, type PatientSnap, type Payment, type Report, type Sex, type Referrer } from "../types";
 import { allTests, listPackages, priceMap } from "./catalog";
 import { dateInTz, money, need, nowIso, numv, str } from "./util";
+=======
+import { ApiError, type PaymentDoc, type ApiCtx, type Bill, type BillItem, type Patient, type PatientSnap, type Payment, type Report, type Sex, type Referrer } from "../types";
+import { allTests, listPackages, priceMap } from "./catalog";
+import { byDateRange, dateInTz, money, need, nowIso, numv, str } from "./util";
+>>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
 import { newId } from "../util/crypto";
 import { getTenant } from "./tenants";
 
@@ -59,11 +65,19 @@ export async function createBill(ctx: ApiCtx, b: any): Promise<{ bill: Bill; rep
   const prefix = tenant.settings?.regPrefix ?? ""; void prefix;
   const regNo = await repo.nextCounter(tid, "bill", 1001);
   const bill: Bill = { id: newId("b_"), tenantId: tid, regNo, patientId: patient.id, patient: { ...snap, id: patient.id }, referrerId, referrerName, collectionCentre: str(b.collectionCentre ?? "Main", "collectionCentre"), agentId: b.agentId, agentName: b.agentName,
+<<<<<<< HEAD
     date: dateInTz(new Date()), caseTypes: Array.isArray(b.caseTypes) && b.caseTypes.length ? b.caseTypes.map(String) : ["LAB"], items, subtotal, discountType: dType, discountValue: dVal, discountAmount: t.discountAmount, total: t.total, paid, balance: t.balance, payments, cancelled: false, createdAt: nowIso(), createdBy: ctx.actor, externalRef: externalRef || undefined, remarks: b.remarks };
   await repo.set("bills", bill.id, bill);
   const reports: Report[] = [];
   for (const { id } of reportTests) {
     const test = tests.find(x => x.id === id); if (!test) continue; const r: Report = { id: newId("r_"), tenantId: tid, billId: bill.id, regNo, testId: test.id, testName: test.name, department: test.department, patient: bill.patient, referrerName, results: {}, status: "new", createdAt: nowIso(), updatedAt: nowIso(), collectedAt: nowIso(), receivedAt: nowIso() };
+=======
+    date: dateInTz(new Date()), caseTypes: Array.isArray(b.caseTypes) && b.caseTypes.length ? b.caseTypes.map(String) : ["LAB"], items, subtotal, discountType: dType, discountValue: dVal, discountAmount: t.discountAmount, total: t.total, paid, balance: t.balance, payments, cancelled: false, due: t.balance > 0, createdAt: nowIso(), createdBy: ctx.actor, externalRef: externalRef || undefined, remarks: b.remarks };
+  await repo.set("bills", bill.id, bill); for (const p of payments) await recordPayment(bill, p);
+  const reports: Report[] = [];
+  for (const { id } of reportTests) {
+    const test = tests.find(x => x.id === id); if (!test) continue; const r: Report = { id: newId("r_"), tenantId: tid, billId: bill.id, regNo, date: bill.date, testId: test.id, testName: test.name, department: test.department, patient: bill.patient, referrerName, results: {}, status: "new", createdAt: nowIso(), updatedAt: nowIso(), collectedAt: nowIso(), receivedAt: nowIso() };
+>>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
     await repo.set("reports", r.id, r); reports.push(r);
   }
   return { bill, reports };
@@ -73,6 +87,7 @@ export async function addPayment(ctx: ApiCtx, id: string, b: any) {
   const bill = await getBill(ctx, id); if (bill.cancelled) throw new ApiError(400, "Bill is cancelled", "validation");
   const amount = numv(b.amount, "amount", { min: 0.01 }); if (amount > bill.balance + 0.001) throw new ApiError(400, `Amount exceeds balance (${bill.balance})`, "validation");
   const payments = [...bill.payments, { amount, mode: str(b.mode ?? "cash", "mode", { max: 20 }), at: nowIso(), by: ctx.actor, remarks: b.remarks }]; const paid = money(bill.paid + amount);
+<<<<<<< HEAD
   const up = { payments, paid, balance: money(bill.total - paid) }; await getRepo().patch("bills", id, up); return { ...bill, ...up };
 }
 export async function cancelBill(ctx: ApiCtx, id: string) { const bill = await getBill(ctx, id); await getRepo().patch("bills", id, { cancelled: true }); return { ...bill, cancelled: true }; }
@@ -81,4 +96,25 @@ export async function searchBills(tid: string, f: { from?: string; to?: string; 
   let rows = await getRepo().query<Bill>("bills", { where: where as any, limit: 2000 });
   rows = rows.filter(r => (f.regNo ? r.regNo === f.regNo : true) && (f.name ? `${r.patient.firstName} ${r.patient.lastName ?? ""}`.toLowerCase().includes(f.name.toLowerCase()) : true) && (f.referrerId ? r.referrerId === f.referrerId : true) && (f.hasDue ? r.balance > 0 && !r.cancelled : true) && (f.cancelled !== undefined ? r.cancelled === f.cancelled : true) && (f.centre ? r.collectionCentre === f.centre : true));
   return rows.sort((a, b) => b.regNo - a.regNo).slice(0, f.limit ?? 200);
+=======
+  const up = { payments, paid, balance: money(bill.total - paid), due: money(bill.total - paid) > 0 }; await getRepo().patch("bills", id, up); await recordPayment(bill, payments[payments.length - 1]); return { ...bill, ...up };
+}
+export async function cancelBill(ctx: ApiCtx, id: string) {
+  const bill = await getBill(ctx, id); await getRepo().patch("bills", id, { cancelled: true, due: false });
+  for (const p of await getRepo().query<PaymentDoc>("payments", { where: [["tenantId", "==", ctx.tenantId], ["billId", "==", id]] })) await getRepo().patch("payments", p.id, { cancelled: true });
+  return { ...bill, cancelled: true };
+}
+/** One row per payment (date-indexed) → fast daily business / transactions without scanning all bills. */
+async function recordPayment(bill: Bill, p: Payment) {
+  const d: PaymentDoc = { id: newId("pay_"), tenantId: bill.tenantId, billId: bill.id, regNo: bill.regNo, patient: `${bill.patient.firstName} ${bill.patient.lastName ?? ""}`.trim(), referredBy: bill.referrerName, centre: bill.collectionCentre, amount: p.amount, mode: p.mode, date: dateInTz(p.at), at: p.at, by: p.by };
+  await getRepo().set("payments", d.id, d);
+}
+export async function searchBills(tid: string, f: { from?: string; to?: string; regNo?: number; name?: string; referrerId?: string; hasDue?: boolean; cancelled?: boolean; centre?: string; limit?: number }) {
+  let rows: Bill[];
+  if (f.regNo) rows = await getRepo().query<Bill>("bills", { where: [["tenantId", "==", tid], ["regNo", "==", f.regNo]] });
+  else if (f.hasDue && !(f.from && f.to)) rows = await getRepo().query<Bill>("bills", { where: [["tenantId", "==", tid], ["due", "==", true]] });
+  else rows = await byDateRange<Bill>("bills", tid, f.from, f.to);
+  rows = rows.filter(r => (f.name ? `${r.patient.firstName} ${r.patient.lastName ?? ""}`.toLowerCase().includes(f.name.toLowerCase()) : true) && (f.referrerId ? r.referrerId === f.referrerId : true) && (f.hasDue ? r.balance > 0 && !r.cancelled : true) && (f.cancelled !== undefined ? r.cancelled === f.cancelled : true) && (f.centre ? r.collectionCentre === f.centre : true));
+  return rows.sort((a, b) => b.regNo - a.regNo).slice(0, f.limit ?? 300);
+>>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
 }

@@ -16,3 +16,20 @@ export function numv(v: unknown, field: string, { min = 0, max = 1e9, required =
 }
 export function requireRole(ctx: ApiCtx, ...roles: ApiCtx["role"][]) { if (!roles.includes(ctx.role)) throw new ApiError(403, "Not allowed for this credential", "forbidden"); }
 export const inRange = (d: string, from?: string, to?: string) => (!from || d >= from) && (!to || d <= to);
+<<<<<<< HEAD
+=======
+
+import { getRepo } from "../repo";
+import type { Op } from "../repo/types";
+export function daysBetween(from: string, to: string): string[] {
+  const out: string[] = []; const d = new Date(from + "T00:00:00Z"); const end = new Date(to + "T00:00:00Z");
+  if (isNaN(+d) || isNaN(+end) || d > end) return out; for (let i = 0; d <= end && i < 400; i++, d.setUTCDate(d.getUTCDate() + 1)) out.push(d.toISOString().slice(0, 10)); return out;
+}
+/** Reads docs of a tenant whose `date` (YYYY-MM-DD) is within [from,to]. Uses one equality query per day (<=120 days) so Firestore reads
+ *  only what is needed; wider/open ranges fall back to a tenant-wide read filtered in memory. */
+export async function byDateRange<T extends { date?: string }>(col: string, tid: string, from?: string, to?: string, extra: [string, Op, unknown][] = []): Promise<T[]> {
+  const repo = getRepo();
+  if (from && to) { const days = daysBetween(from, to); if (days.length && days.length <= 120) { const out: T[] = []; for (let i = 0; i < days.length; i += 15) out.push(...(await Promise.all(days.slice(i, i + 15).map(d => repo.query<T>(col, { where: [["tenantId", "==", tid], ["date", "==", d], ...extra] })))).flat()); return out; } }
+  const rows = await repo.query<T>(col, { where: [["tenantId", "==", tid], ...extra] }); return rows.filter(r => inRange(r.date ?? "", from, to));
+}
+>>>>>>> ea8dfb41dbaa7fd42ed7adf7a501661796fa8fdd
